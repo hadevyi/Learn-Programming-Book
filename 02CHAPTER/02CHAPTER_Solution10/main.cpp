@@ -12,8 +12,7 @@ void main()
 
 	leght = strlen(ch);
 
-	for (i = 0; i < leght; i++)
-	{
+	for (i = 0; i < leght; i++)	{
 		for (j = 0; j <= i; j++)
 			cout << ch[j];
 		cout << endl;

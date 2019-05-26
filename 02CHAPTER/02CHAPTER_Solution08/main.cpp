@@ -1,4 +1,3 @@
-
 //2017-1학기 C++ 20163131 당현아
 #include <iostream>
 using namespace std;
@@ -13,14 +12,11 @@ void main()
 
 	leght = strlen(name_line);
 
-	for (i = 0; i < 5; i++)
-	{
+	for (i = 0; i < 5; i++)	{
 		cout << i << " : ";
 
-		for (j = count; j < leght - 1; j++)
-		{
-			if (name_line[j] == ';')
-			{
+		for (j = count; j < leght - 1; j++)		{
+			if (name_line[j] == ';')			{
 				cnt++;
 				break;
 			}

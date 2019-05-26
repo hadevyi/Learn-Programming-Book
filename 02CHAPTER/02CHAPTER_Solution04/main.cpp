@@ -8,6 +8,7 @@ void main()
 	int i = 0;
 
 	cout << "5개의 실수를 입력하라>>";
+
 	for (i = 0; i < 5; i++)
 		cin >> num[i];
 
