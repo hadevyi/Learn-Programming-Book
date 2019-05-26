@@ -1,4 +1,4 @@
-//2017-1ÇÐ±â C++ 20163131 ´çÇö¾Æ
+//2017-1 C++ 20163131 ë‹¹í˜„ì•„
 #include <iostream>
 using namespace std;
 
@@ -7,7 +7,7 @@ void main()
 	char ch[20];
 	int leght, i, j;
 
-	cout << "¹®ÀÚ¿­ ÀÔ·Â>> ";
+	cout << "Â¹Â®Ã€ÃšÂ¿Â­ Ã€Ã”Â·Ã‚>> ";
 	cin.getline(ch, 20, '\n');
 
 	leght = strlen(ch);
