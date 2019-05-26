@@ -1,4 +1,4 @@
-//2017-1ÇÐ±â C++ 20163131 ´çÇö¾Æ
+//2017-1í•™ê¸° C++ 20163131 
 #include <iostream>
 using namespace std;
 
