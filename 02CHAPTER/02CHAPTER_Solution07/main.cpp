@@ -1,19 +1,19 @@
-//2017-1ÇÐ±â C++ 20163131 ´çÇö¾Æ
+//2017-1í•™ê¸° C++ 20163131 ë‹¹í˜„ì•„
 #include <iostream>
 using namespace std;
 
-void main()
+int main()
 {
 	char ch[100];
 
 	while (true)
 	{
-		cout << "Á¾·áÇÏ°í½ÍÀ¸¸é yes¸¦ ÀÔ·ÂÇÏ¼¼¿ä>> ";
+		cout << "Enter yes if you want to exit.>> ";
 		cin.getline(ch, 100, '\n');
 
 		if (strcmp(ch, "yes") == 0)
 		{
-			cout << "Á¾·áÇÕ´Ï´Ù..." << endl;
+			cout << "exit..." << endl;
 			break;
 		}
 	}
