@@ -1,13 +1,13 @@
-//2017-1ÇÐ±â C++ 20163131 ´çÇö¾Æ
+//2017-1í•™ê¸° C++ 20163131 ë‹¹í˜„ì•„
 #include <iostream>
 using namespace std;
 
-void main()
+int main()
 {
 	double num[5], max;
 	int i = 0;
 
-	cout << "5°³ÀÇ ½Ç¼ö¸¦ ÀÔ·ÂÇÏ¶ó>>";
+	cout << "input to five number >>";
 
 	for (i = 0; i < 5; i++)
 		cin >> num[i];
@@ -18,5 +18,5 @@ void main()
 		if (max < num[i])
 			max = num[i];
 
-	cout << "Á¦ÀÏ Å« ¼ö = " << max << endl;
+	cout << "max number = " << max << endl;
 }
