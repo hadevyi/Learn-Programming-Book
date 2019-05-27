@@ -1,18 +1,18 @@
-//2017-1ÇÐ±â C++ 20163131 ´çÇö¾Æ
+//2017-1í•™ê¸° C++ 20163131 ë‹¹í˜„ì•„
 #include <iostream>
 using namespace std;
 
-void main()
+int main()
 {
 	int num1, num2;
 
-	cout << "µÎ ¼ö¸¦ ÀÔ·ÂÇÏ¶ó >> ";
+	cout << "ë‘ ìˆ˜ë¥¼ ìž…ë ¥í•˜ë¼ >> ";
 	cin >> num1 >> num2;
 
 	if (num1 > num2)
-		cout << "Å« ¼ö = " << num1 << endl;
+		cout << "í° ìˆ˜ = " << num1 << endl;
 	else if (num1 < num2)
-		cout << "Å« ¼ö = " << num2 << endl;
+		cout << "í° ìˆ˜ = " << num2 << endl;
 	else
-		cout << "Å« ¼ö = µÎ ¼ö°¡ °°´Ù." << endl;
+		cout << "í° ìˆ˜ = ë‘ ìˆ˜ê°€ ê°™ë‹¤." << endl;
 }
