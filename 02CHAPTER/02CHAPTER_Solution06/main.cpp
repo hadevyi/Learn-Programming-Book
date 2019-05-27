@@ -1,19 +1,19 @@
-//2017-1ÇÐ±â C++ 20163131 ´çÇö¾Æ
+//2017-1í•™ê¸° C++ 20163131 ë‹¹í˜„ì•„
 #include <iostream>
 using namespace std;
 
-void main()
+int main()
 {
 	char s1[10], s2[10];
 
-	cout << "»õ ¾ÏÈ£¸¦ ÀÔ·ÂÇÏ¼¼¿ä>> ";
+	cout << "Please enter a new password>> ";
 	cin >> s1;
 
-	cout << "»õ ¾ÏÈ£¸¦ ´Ù½Ã ÇÑ ¹ø ÀÔ·ÂÇÏ¼¼¿ä>> ";
+	cout << "Please re-enter the new password>> ";
 	cin >> s2;
 
 	if (strcmp(s1, s2) == 0)
-		cout << "°°½À´Ï´Ù." << endl;
+		cout << "It's same." << endl;
 	else
-		cout << "°°Áö ¾Ê½À´Ï´Ù." << endl;
+		cout << "It's not the same." << endl;
 }
