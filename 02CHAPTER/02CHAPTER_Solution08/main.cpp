@@ -1,13 +1,13 @@
-//2017-1ÇÐ±â C++ 20163131 ´çÇö¾Æ
+//2017-1í•™ê¸° C++ 20163131 ë‹¹í˜„ì•„
 #include <iostream>
 using namespace std;
 
-void main()
+int main()
 {
 	char name_line[1000];
 	int i, j, leght, count = 0, cnt = 0;
 
-	cout << "5¸íÀÇ ÀÌ¸§À» ';'À¸·Î ±¸ºÐÇÏ¿© ÀÔ·ÂÇÏ¼¼¿ä\n>> ";
+	cout << "Enter 5 names separated by ';'\n>> ";
 	cin.getline(name_line, 1000, '\n');
 
 	leght = strlen(name_line);
@@ -15,8 +15,8 @@ void main()
 	for (i = 0; i < 5; i++)	{
 		cout << i << " : ";
 
-		for (j = count; j < leght - 1; j++)		{
-			if (name_line[j] == ';')			{
+		for (j = count; j < leght - 1; j++) {
+			if (name_line[j] == ';') {
 				cnt++;
 				break;
 			}
