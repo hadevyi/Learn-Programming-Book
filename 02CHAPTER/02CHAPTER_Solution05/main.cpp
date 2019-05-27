@@ -1,13 +1,13 @@
-//2017-1ÇÐ±â C++ 20163131 ´çÇö¾Æ
+//2017-1í•™ê¸° C++ 20163131 ë‹¹í˜„ì•„
 #include <iostream>
 using namespace std;
 
-void main()
+int main()
 {
 	char arr[100];
 	int x = 0, leght, i;
 
-	cout << "¹®ÀÚµéÀ» ÀÔ·ÂÇÏ¶ó(100°³ ¹Ì¸¸)." << endl;
+	cout << "Enter characters (less than 100 characters)" << endl;
 	cin.getline(arr, 100, '\n');
 
 	leght = strlen(arr);
@@ -16,5 +16,5 @@ void main()
 		if (arr[i] == 'x')
 			x++;
 
-	cout << "xÀÇ °³¼ö´Â " << x << endl;
+	cout << "The number of x's is " << x << endl;
 }
