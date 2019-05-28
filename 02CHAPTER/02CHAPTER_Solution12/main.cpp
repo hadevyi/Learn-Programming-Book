@@ -1,4 +1,4 @@
-//2017-1ÇÐ±â C++ 20163131 ´çÇö¾Æ
+//2017-1í•™ê¸° C++ 20163131 ë‹¹í˜„ì•„
 #include <iostream>
 #include "sum_h.h"
 using namespace std;
@@ -7,8 +7,8 @@ int main(void)
 {
 	int n = 0;
 
-	cout << "³¡ ¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä>> ";
+	cout << "Please enter the number of endings.>> ";
 	cin >> n;
 
-	cout << "1¿¡¼­ " << n << "±îÁöÀÇ ÇÕÀº " << sum(1, n) << "ÀÔ´Ï´Ù." << endl;
+	cout << "The sum of 1 to " << n << " is " << sum(1, n) << endl;
 }
