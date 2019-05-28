@@ -2,12 +2,12 @@
 #include <iostream>
 using namespace std;
 
-void main()
+int main()
 {
 	char ch[20];
 	int leght, i, j;
 
-	cout << "¹®ÀÚ¿­ ÀÔ·Â>> ";
+	cout << "Enter String>> ";
 	cin.getline(ch, 20, '\n');
 
 	leght = strlen(ch);
