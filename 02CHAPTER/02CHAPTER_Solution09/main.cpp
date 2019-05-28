@@ -1,20 +1,20 @@
-//2017-1ÇÐ±â C++ 20163131 ´çÇö¾Æ
+//2017-1í•™ê¸° C++ 20163131 ë‹¹í˜„ì•„
 #include <iostream>
 using namespace std;
 
-void main()
+int main()
 {
 	char name[11], address[50];
 	int age;
 
-	cout << "ÀÌ¸§Àº? ";
+	cout << "your name? ";
 	cin.getline(name, 11, '\n');
 
-	cout << "ÁÖ¼Ò´Â? ";
+	cout << "your address? ";
 	cin.getline(address, 50, '\n');
 
-	cout << "³ªÀÌ´Â? ";
+	cout << "your age? ";
 	cin >> age;
 
-	cout << "\n" << name << ", " << address << ", " << age << "¼¼" << endl << endl;
+	cout << "\n" << name << ", " << address << ", " << age << endl << endl;
 }
