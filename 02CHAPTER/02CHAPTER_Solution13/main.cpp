@@ -1,15 +1,15 @@
-//2017-1ÇÐ±â C++ 20163131 ´çÇö¾Æ
+//2017-1í•™ê¸° C++ 20163131 ë‹¹í˜„ì•„
 #include <iostream>
 #include <cstring>
 using namespace std;
 
-void main()
+int main()
 {
 	char line[30], *ch = NULL;
 	int num1 = 0, num2 = 0;
 
-	cout << "´õÇÏ±â : +\n»©±â : -\n°öÇÏ±â : *\n³ª´©±â : /\n³ª¸ÓÁö : %\n----------------------------------";
-	cout << "\nÁ¤¼ö¿Í ¿¬»êÀÚ »çÀÌ¿¡ ¶ç¾î¾²±â ÇÊ¼ö\n----------------------------------\n";
+	cout << "Plus : +\nMinus : -\nMultiplication : *\nDivision : /\nRemainder : %\n----------------------------------";
+	cout << "\nSpacing required between integer and operator.\n----------------------------------\n";
 
 	while (1)
 	{
@@ -37,7 +37,7 @@ void main()
 			cout << (num1%num2);
 		else
 		{
-			cout << "¿¬»êÀÚ¸¦ Àß ¸ø ÀÔ·ÂÇÏ¼Ì½À´Ï´Ù.\n";
+			cout << "You entered the operator incorrectly.\n";
 			exit(1);
 		}
 
