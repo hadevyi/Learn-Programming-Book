@@ -1,4 +1,4 @@
-//2017-1학기 C++ 20163131 당현아
+//2017-1학기 C++ 20163131 당현아 
 #include <iostream>
 #include "sum_h.h"
 using namespace std;
