@@ -1,15 +1,15 @@
-//2017-1ÇÐ±â C++ 20163131 ´çÇö¾Æ
+//2017-1í•™ê¸° C++ 20163131 ë‹¹í˜„ì•„
 #include <iostream>
 using namespace std;
 
-void main()
+int main()
 {
 	char histogram[10000];
 	int abc[26] = { 0 }, a_start = (int)'a';
 	int i, j, cnt = 0, leght;
 
-	cout << "¿µ¹® Å×½ºÆ®¸¦ ÀÔ·ÂÇÏ¼¼¿ä. È÷½ºÅä±×·¥À» ±×¸³´Ï´Ù." << endl;
-	cout << "ÅØ½ºÆ®ÀÇ ³¡Àº ; ÀÔ´Ï´Ù. 10000°³±îÁö °¡´ÉÇÕ´Ï´Ù.\n" << endl;
+	cout << "Enter English test. Draw a histogram." << endl;
+	cout << "The end of the text is ;. Up to 10000.\n" << endl;
 
 	cin.getline(histogram, 10000, ';');
 	leght = strlen(histogram);
@@ -24,7 +24,7 @@ void main()
 		}
 	}
 
-	cout << "\nÃÑ ¾ËÆÄºª ¼ö " << cnt << endl << endl;
+	cout << "\nTotal alphabets is " << cnt << endl << endl;
 
 	for (i = 0; i < 26; i++)
 	{
@@ -38,7 +38,7 @@ void main()
 }
 
 /*
-//½Ç½À ÀÔ·Â ¿¹½Ã ¿µ¹®Àå
+//Practical Input Example English Chapter
 Wise men say, only fools rush in
 But I can't help, falling in love with you
 
