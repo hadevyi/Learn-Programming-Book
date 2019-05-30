@@ -1,6 +1,6 @@
 #pragma once
-#ifndef DATE_H
-#define DATE_H
+#ifndef DATE
+#define DATE
 #include <string>
 using namespace std;
 
@@ -17,5 +17,5 @@ public:
 	int getMonth();
 	int getDay();
 };
-#endif // !DATE_H
+#endif // !DATE
 
