@@ -1,4 +1,4 @@
-//2017-1ÇÐ±â C++ 20163131 ´çÇö¾Æ
+//2017-1í•™ê¸° C++ 20163131 ë‹¹í˜„ì•„
 #include <iostream>
 #include "Tower.h"
 using namespace std;
@@ -6,6 +6,6 @@ using namespace std;
 void main() {
 	Tower myTower;
 	Tower seoulTower(100);
-	cout << "³ôÀÌ´Â " << myTower.getHeight() << "¹ÌÅÍ" << endl;
-	cout << "³ôÀÌ´Â " << seoulTower.getHeight() << "¹ÌÅÍ" << endl;
+	cout << "It is " << myTower.getHeight() << " meters tall." << endl;
+	cout << "It is " << seoulTower.getHeight() << " meters tall." << endl;
 }
