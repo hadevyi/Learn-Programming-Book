@@ -1,4 +1,4 @@
-//2017-1ÇÐ±â C++ 20163131 ´çÇö¾Æ
+//2017-1í•™ê¸° C++ 20163131 ë‹¹í˜„ì•„ 
 #include <iostream>
 #include "Date.h"
 
@@ -28,7 +28,7 @@ Date::Date(string s) {
 }
 
 void Date::show() {
-	cout << year << "³â" << month << "¿ù" << day << "ÀÏ" << endl;
+	cout << year << "Â³Ã¢" << month << "Â¿Ã¹" << day << "Ã€Ã" << endl;
 }
 
 int Date::getYear() {
