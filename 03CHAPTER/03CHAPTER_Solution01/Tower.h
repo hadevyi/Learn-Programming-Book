@@ -1,4 +1,6 @@
 #pragma once
+#ifndef TOWER
+#define TOWER
 class Tower {
 	int height;
 public:
@@ -6,3 +8,4 @@ public:
 	Tower(int h);
 	int getHeight();
 };
+#endif
