@@ -1,6 +1,6 @@
 #pragma once
-#ifndef RANDOM_H
-#define RANDOM_H
+#ifndef RANDOM
+#define RANDOM
 class Random {
 	int start_num;
 	int end_num;
@@ -9,4 +9,4 @@ public:
 	int next();
 	int nextInRange(int n1, int n2);
 };
-#endif // !RANDOM_H
+#endif // !RANDOM
