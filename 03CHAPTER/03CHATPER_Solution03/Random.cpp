@@ -1,4 +1,4 @@
-//2017-1ÇĞ±â C++ 20163131 ´çÇö¾Æ
+//2017-1í•™ê¸° C++ 20163131 ë‹¹í˜„ì•„
 #include <cstdlib>
 #include <ctime>
 #include "Random.h"
@@ -6,19 +6,20 @@
 Random::Random() {
 	start_num = 1;
 	end_num = 10;
-	srand((unsigned)time(0)); //½ÇÇà¸¶´Ù ´Ù¸¥ ·£´ı °ªÀ» ¹ß»ı½ÃÅ°´Â seed , ctime¿¡ ÀÇÇØ include µÊ 
+	srand((unsigned)time(0)); //Inclouded by seed , ctime, which generates different random values for each run
 }
 
 int Random::next() {
 	start_num = 0;
 	end_num = RAND_MAX;
 
-	return rand(); //cstdlib¿¡ Æ÷ÇÔµÇ¾îÀÖ´Â ·£´ı ¹ß»ı ÇÔ¼ö
+	return rand(); //Random generated function included in cstdlib
 }
 
 int Random::nextInRange(int n1, int n2) {
 	start_num = n1;
 	end_num = n2;
 
-	return n1 + (rand() % (n2 - n1 + 1)); //rand ÇÔ¼öÀÇ ¹üÀ§ ÁöÁ¤ ¹æ¹ı = ½ÃÀÛ°ª + (rand() % (³¡°ª - ½ÃÀÛ°ª + 1))
+	return n1 + (rand() % (n2 - n1 + 1));
+	//To specify the range of the range function = start value + (land() % (end value - start value + 1)
 }
