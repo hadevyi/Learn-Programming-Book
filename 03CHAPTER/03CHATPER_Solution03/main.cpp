@@ -1,4 +1,4 @@
-//2017-1ÇÐ±â C++ 20163131 ´çÇö¾Æ
+//2017-1í•™ê¸° C++ 20163131 ë‹¹í˜„ì•„
 #include <iostream>
 #include "Random.h"
 using namespace std;
@@ -7,14 +7,14 @@ void main()
 {
 	Random r;
 
-	cout << "\n--0¿¡¼­ " << RAND_MAX << "±îÁöÀÇ ·£´ý Á¤¼ö 10°³--" << endl;
+	cout << "\n- At zero. " << RAND_MAX << "10 random integers to--" << endl;
 
 	for (int i = 0; i < 10; i++) {
 		int n = r.next();
 		cout << n << ' ';
 	}
 
-	cout << endl << endl << "--2¿¡¼­ 4 ±îÁöÀÇ ·£´ý Á¤¼ö 10°³--" << endl;
+	cout << endl << endl << "10 random integers from --2 to 4--" << endl;
 
 	for (int i = 0; i < 10; i++) {
 		int n = r.nextInRange(2, 4);
