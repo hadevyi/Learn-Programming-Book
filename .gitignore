@@ -1,7 +1,6 @@
 # Visual Studio C++ #
 
 .vs/**
-
 *.sln
 *.vcxproj
 *.filters
