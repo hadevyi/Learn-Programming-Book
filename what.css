@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin: 0;
+	padding: 0 5%;
+	overflow: hidden;
+	background-color: #F0F0F0;
+}
+
+h3{
+	color:#090D2F;
+}
+
+table{
+	border: 0px;
+}
+
+th{
+	background-color: #C4C6FF;
+}
+
+table>tr>th:nth-child(1){
+	width: 100px;
+}
+
+table>tr>th:nth-child(2){
+	width: 200px;
+}
+
+table>tr>th:nth-child(3){
+	width: 500px;
+}
+
+td{	
+	background-color:#E9E9E9;
+}
