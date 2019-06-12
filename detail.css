@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	height: 100vh;
+	margin: 0;
+	padding: 0 5%;
+	overflow: hidden;
+	background-color: #F0F0F0;
+}
+
+img {
+	width:100%;
+}
+
+div{
+	padding: 0 5%;
+	border: 1px black dashed;
+}
+
+div:nth-child(1n){
+	background-color:lightyellow;
+}
+
+div:nth-child(2n){
+	background-color:lightgreen;
+}
+
+div:nth-child(3n){
+	background-color:lightblue;
+}
