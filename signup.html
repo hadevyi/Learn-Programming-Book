@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Sing Up</title>
+</head>
+
+<body>
+	<center>
+		<img src="IMAGE/identity-card.png" width="200">
+		<form name="write_form_member" method="post">
+			<table width="940" height="800" style="padding:auto; ">
+				<tr height="2" bgcolor="#FFC8C3">
+					<td colspan="2"></td>
+				</tr>
+				<tr>
+					<th>이름</th>
+					<td><input type="text" name="mbname" autofocus required placeholder="여백없이 입력"></td>
+				</tr>
+				<tr>
+					<th>주민등록번호</th>
+					<td><input type="text" name="jumin_1" required> -
+						<input type="password" name="jumin_2" required></td>
+				</tr>
+				<tr>
+					<th>아이디</th>
+					<td>
+						<input type="text" name="cursor:pointer" required>
+					</td>
+				</tr>
+				<tr>
+					<th>비밀번호</th>
+					<td><input type="password" name="mbpw" required placeholder="영문/숫자포함 6자 이상"></td>
+				</tr>
+				<tr>
+					<th>비밀번호 확인</th>
+					<td><input type="password" name="mbpw_re" required></td>
+				</tr>
+				<tr>
+					<th>비밀번호 힌트/답변</th>
+					<td>
+						<select name='pwhint' size='1' class='select'>
+							<option value=''>선택하세요</option>
+							<option value='30'>졸업한 초등학교 이름은?</option>
+							<option value='31'>제일 친한 친구의 핸드폰 번호는?</option>
+							<option value='32'>아버지 성함은?</option>
+							<option value='33'>어머니 성함은?</option>
+							<option value='34'>어릴 적 내 별명은?</option>
+							<option value='35'>가장 아끼는 물건은?</option>
+							<option value='36'>좋아하는 동물은?</option>
+							<option value='37'>좋아하는 색깔은?</option>
+							<option value='38'>좋아하는 음식은?</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<th>답변</th>
+					<td><input type='text' name='pwhintans'></td>
+				</tr>
+				<tr>
+					<th>이메일</th>
+					<td>
+						<input type='text' name="email">@
+						<input type='text' name="email_dns">
+						<select name="emailaddr">
+							<option value="">직접입력</option>
+							<option value="daum.net">daum.net</option>
+							<option value="empal.com">empal.com</option>
+							<option value="gmail.com">gmail.com</option>
+							<option value="hanmail.net">hanmail.net</option>
+							<option value="msn.com">msn.com</option>
+							<option value="naver.com">naver.com</option>
+							<option value="nate.com">nate.com</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<th>주소</th>
+					<td>
+						<input type="text" name="zip_h_1"> - 
+						<input type="text" name="zip_h_2">
+						<input type="text" name="addr_h1"><br>
+						<input type="text" name="addr_h2">
+					</td>
+				</tr>
+				<tr>
+					<th>전화번호</th>
+					<td><input type="text"name="cel1"> -
+						<input type="text" name="cel2_1" title="전화번호"> -
+						<input type="text" name="cel2_2">
+					</td>
+				</tr>
+				<tr>
+					<th>핸드폰 번호</th>
+					<td><input type="text"name="tel_h1"> -
+						<input type="text" name="tel_h2_1"> -
+						<input type="text" name="tel_h2_2">
+					</td>
+			   </tr>
+			   <tr>
+				   <th>메일/sns 정보 수신</th>
+				   <td class="s">
+					   <input type="radio" name="chk_mail" checked> 수신
+					   <input type="radio" name="chk_mail" value="4"> 수신거부
+				   </td>
+				</tr>
+				<tr>
+					<th>정보공개여부</th>
+					<td>
+						<select name='chk_open' size='0'>
+							<option value=''>선택하세요</option>
+							<option value='5'>모두공개</option>
+							<option value='6'>비공개</option>
+							<option value='7'>1단계공개</option>
+							<option value='8'>2단계공개</option>
+						</select>
+					</td>
+				</tr>
+				<tr height="2" bgcolor="#FFC8C3"><td colspan="2"></td></tr>
+				<tr>
+					<td colspan="2" align="center">
+						<input type="submit" value="회원가입">
+						<input type="reset" value="취소">
+					</td>
+				</tr>
+			</table>
+		</form>
+	</center>
+</body>
+</html>
