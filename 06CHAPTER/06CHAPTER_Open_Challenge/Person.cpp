@@ -5,8 +5,7 @@
 #include "Person.h"
 using namespace std;
 
-void Person::game()
-{
+void Person::game(){
 	int random = rand() % 100; //Create random value.
 	int name_cnt = 0; //Count for name output
 	int num; // Enter Value
