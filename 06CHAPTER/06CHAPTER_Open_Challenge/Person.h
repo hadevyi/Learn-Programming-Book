@@ -2,7 +2,8 @@
 #ifndef PERSON
 #define PERSON
 #include <string>
-class Person {
+class Person
+{
 	string name[2];
 	int down;
 	int up;
