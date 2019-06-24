@@ -13,7 +13,9 @@ MyIntStack::MyIntStack(MyIntStack&s) {
 		this->p[i] = s.p[i];
 }
 
-MyIntStack::~MyIntStack() { delete[]p; }
+MyIntStack::~MyIntStack() {
+	delete[]p;
+}
 
 bool MyIntStack::push(int n) {
 	tos++;
