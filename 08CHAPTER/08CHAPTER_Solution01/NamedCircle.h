@@ -3,6 +3,7 @@
 #define NAMEDCIRCLE
 #include <string.h>
 #include "Circle.h"
+
 class NamedCircle : public Circle {
 	string name;
 public:
