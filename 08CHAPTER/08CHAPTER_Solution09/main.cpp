@@ -3,8 +3,7 @@ using namespace std;
 
 #include "Console.h"
 
-void main()
-{
+void main(){
 	Console console;
 	console.set();
 }
