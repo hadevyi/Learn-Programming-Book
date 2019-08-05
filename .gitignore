@@ -1,5 +1,4 @@
 # Visual Studio C++ #
-
 .vs/**
 *.sln
 *.vcxproj
@@ -7,7 +6,6 @@
 *.user
 
 # Directories #
-
 /build/
 /bin/
 target/
