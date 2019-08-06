@@ -1,7 +1,6 @@
 #include <iostream>
-using namespace std;
-
 #include "Console.h"
+using namespace std;
 
 void main(){
 	Console console;
