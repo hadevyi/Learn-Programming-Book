@@ -4,8 +4,7 @@
 #include "Triangular.h"
 using namespace std;
 
-void main()
-{
+void main(){
 	Shape* p[3];
 	p[0] = new Oval("A", 10, 20);
 	p[1] = new Rect("B", 30, 40);
