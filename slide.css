@@ -70,4 +70,6 @@ li{list-style: none;}
 	clear:both;
 }
 
-.slide_btn{	*zoom:1;}
+.slide_btn{	
+	*zoom:1;
+}
