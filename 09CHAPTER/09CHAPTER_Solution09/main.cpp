@@ -3,8 +3,7 @@
 #include "LaserPrinter.h"
 using namespace std;
 
-void main()
-{
+void main(){
 	char ch;
 	int print, page;
 	InkJetPrinter inkprint("Officejet V40", "HP", 0, 5, 10);
@@ -35,7 +34,6 @@ void main()
 			default:
 				break;
 			}
-
 		}
 		else if (print == 2)
 		{
