@@ -13,8 +13,7 @@ void main(){
 	inkprint.show();
 	laserprint.show();
 
-	while (true)
-	{
+	while (true)	{
 		cout << endl << endl << "Printer (1:Inkjet, 2:Laser) and Purchase Input >> ";
 		cin >> print >> page;
 
