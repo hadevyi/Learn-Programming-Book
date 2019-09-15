@@ -20,8 +20,7 @@ function autoplay(){
 	if(current == slide_length-1){
 	current = 0;
 	}else{
-	current++;
-	}
+	current++;	}
 	$('.slide_ul>li').stop().fadeOut(1000);
 	$('.slide_ul>li').eq(current).stop().fadeIn(1000);
 	$('.slide_btn > li > a').removeClass('active');	
