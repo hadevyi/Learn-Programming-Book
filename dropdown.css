@@ -75,7 +75,8 @@
 	text-align:left;
 }
 
-.menubar li ul a:hover, .menubar li ul li:hover a{
+.menubar li ul a:hover, .menubar li ul li:hover a
+{
 	background-color: #A6A9FC;
 	border:0px;
 	color:#ffffff;
