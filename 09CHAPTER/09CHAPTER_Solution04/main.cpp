@@ -1,8 +1,7 @@
 #include "WhileLoopAdder.h"
 #include "DoWhileLoopAdder.h"
 
-void main()
-{
+void main(){
 	WhileLoopAdder whileLoop("While Loop");
 	DoWhileLoopAdder doWhileLoop("Do While Loop");
 
