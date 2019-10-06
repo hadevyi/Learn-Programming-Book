@@ -4,7 +4,7 @@
 #include <iostream>
 #include <string>
 using namespace std;
-class UI {
+class UI { 
 public:
 	static int menu()
 	{
