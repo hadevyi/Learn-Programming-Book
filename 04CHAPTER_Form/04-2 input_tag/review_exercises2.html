@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>04_2 - 실습문제2</title>
+</head>
+
+<body>
+	<table border="1">
+		<tr>
+			<td><label for="user_num">사번</label></td>
+		  <td><input type="number" id="user_num"></td>
+			<td><label for="name">이름</label></td>
+			<td><input type="text" id="name"></td>
+		</tr>
+		<tr>
+			<td><label for="age">나이</label></td>
+			<td><input type="number" id="age"></td>
+			<td><label for="gender">성별</label></td>
+			<td>
+				<input type="radio" name="gender" value="m">남자
+				<input type="radio" name="gender" value="w">여자
+			</td>
+		</tr>
+		<tr>
+			<td><label for="last">최종학력</label></td>
+			<td colspan="3">
+				<input type="text" id="last">
+			</td>
+		</tr>
+		<tr>
+			<td><label for="hobby">취미</label></td>
+			<td colspan="3">
+				<input type="checkbox" name="sport" value="sport">Sports
+				<input type="checkbox" name="book" value="book">Books
+				<input type="checkbox" name="dance" value="dance">Dance
+			</td>
+		</tr>
+		<tr>
+			<td><label for="introduce">자기소개</label></td>
+			<td colspan="3">
+				<input type="text" id="introduce">
+			</td>
+		</tr>
+	</table>
+	<input type="submit" value="쿼리 전송">
+	<input type="reset" value="원래대로">
+</body>
+</html>
