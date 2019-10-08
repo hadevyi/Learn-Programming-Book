@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>04_3 - attribute</title>
+	<style>
+		th{
+			color:green;
+			text-align:right;
+			padding:5px;
+			width:150px;
+		}
+	</style>
+</head>
+
+<body>
+	<h1>여름방학 특강 신청</h1>
+	<form>
+		<fieldset>
+			<legend>수강과목</legend>
+			<table>
+				<tr>
+					<th><label for="class">영어회화(초급)</label></th>
+					<td>
+						<input type="text" id="class" value="오전 9:00~11:00" readonly>
+					</td>
+				</tr>
+			</table>
+		</fieldset>
+		<fieldset>
+			<legend>신청자</legend>
+			<table>
+				<tr>
+					<th>
+						<label for="name">이름</label>
+					</th>
+					<td>
+						<input type="text" id="name" autofocus required>
+					</td>
+				</tr>
+				<tr>
+					<th>
+						<label for="stu_num">학번</label>
+					</th>
+					<td>
+						<input type="text" id="stu_num" placeholder="하이픈없이 입력">
+					</td>
+				</tr>
+				<tr>
+					<th>
+						<label for="sub">학과</label>
+					</th>
+					<td>
+						<select id="class">
+							<option>건축공학과</option>
+							<option>기계공학과</option>
+							<option>산업공학과 </option>
+							<option>전기전자공학과 </option>
+							<option>컴퓨터공학과</option>
+							<option>화학공학과</option>
+						</select>
+					</td>
+				</tr>
+			</table>
+		</fieldset>
+		<fieldset>
+			<legend>교재 주문</legend>
+			<table>
+				<tr>
+					<th><label for="book">교재</label></th>
+					<td><input type="text" value="1" id="book"></td>
+				</tr>
+				<tr>
+					<th><label for="wok">워크시트</label></th>
+					<td><input type="text" value="1" id="wok"></td>
+				</tr>
+				<tr>
+					<th><label for="group">단체주문</label></th>
+					<td><input type="number" value="10" min="10" max="100" step="10"></td>
+				</tr>
+			</table>
+		</fieldset>
+	</form>
+</body>
+</html>
