@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>04_4 - select1</title>
+	<style>
+		table, th{
+			color:green;
+			padding:5px;
+			width:300px;
+		}
+	</style>
+</head>
+
+<body>
+	<h1>여름방학 특강 신청</h1>
+	<form>
+		<fieldset>
+			<legend>수강 신청안</legend>
+			<table>
+				<tr>
+					<th><label for="std_num">학번</label></th>
+					<td>
+						<input type="text" id="std_num">
+					</td>
+				</tr>
+				<tr>
+					<th><label for="name">이름</label></th>
+					<td>
+						<input type="text" id="name">
+					</td>
+				</tr>
+				<tr>
+					<th><label for="class">학과</label></th>
+					<td>
+						<select size="5" id="class" multiple>
+							<optgroup label="공과대학">
+								<option value="ancho">건축공학과</option>
+								<option value="mechanic">기계공학과</option>
+								<option value="indust">산업공학과 </option>
+								<option value="elec">전기전자공학과 </option>
+								<option value="computer">컴퓨터공학과</option>
+								<option value="chemical">화학공학과</option>
+							</optgroup>
+							<optgroup label="인문대학">
+								<option value="history">사학과</option>
+								<option value="lang">어문학부</option>
+								<option value="philo">철학</option>
+							</optgroup>
+						</select>
+					</td>
+				</tr>
+			</table>
+		</fieldset>
+	</form>
+</body>
+</html>
