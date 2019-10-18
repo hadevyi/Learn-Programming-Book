@@ -3,6 +3,5 @@
 #define Rect
 #include "Shape.h"
 class Rect :public Shape {
-
 };
 #endif // !Rect
