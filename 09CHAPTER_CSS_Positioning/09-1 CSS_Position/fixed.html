@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>09_1 - fixed</title>
+	<style>
+		#fx{
+			position:fixed;
+			top:5px;
+			right:5px;
+			width:50px;
+			height:50px;
+			background:#ff6a00;
+		}
+		#content{ width:400px; }
+		p{line-height:30px;}
+	</style>
+</head>
+
+<body>
+	<div id="fx"></div>
+	<div id="content">
+		<p>fixed 값을 사용하는 요소 역시 absolute을 사용하는 요소처럼 문서 흐름과는 상관없이 좌표로 위치를 결정 하지만, 기준이 되는 요소가 부모 요소가 아니라 브라우저 창이 기준이 됩니다. 브라우저 창을 스크롤 하더라도 계속 고정되 어 표시됩니다.</p>
+	</div>
+</body>
+</html>
