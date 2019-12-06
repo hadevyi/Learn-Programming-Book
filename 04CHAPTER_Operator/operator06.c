@@ -1,8 +1,7 @@
-//ÀÎÁ¦´ëÇĞ±³ ÄÄÇ»ÅÍ°øÇĞºÎ 16ÇĞ¹ø ´çÇö¾Æ ÀÛ¼º(Email : dang0113@naver.com)
+//ì¸ì œëŒ€í•™êµ ì»´í“¨í„°ê³µí•™ë¶€ 16í•™ë²ˆ ë‹¹í˜„ì•„ ì‘ì„±(Email : dang0113@naver.com)
 #include <stdio.h>
 
-int main()
-{
+int main(){
 	int x = 5, y = 10, z;
 
 	z = (x += 2) || (y += 1);
