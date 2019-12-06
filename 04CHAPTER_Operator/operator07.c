@@ -1,14 +1,13 @@
-//ÀÎÁ¦´ëÇĞ±³ ÄÄÇ»ÅÍ°øÇĞºÎ 16ÇĞ¹ø ´çÇö¾Æ ÀÛ¼º(Email : dang0113@naver.com)
+//ì¸ì œëŒ€í•™êµ ì»´í“¨í„°ê³µí•™ë¶€ 16í•™ë²ˆ ë‹¹í˜„ì•„ ì‘ì„±(Email : dang0113@naver.com)
 #include <stdio.h>
 
-int main()
-{
+int main(){
 	int x;
 
-	printf("Á¤¼ö ÀÔ·Â >> ");
+	printf("ì •ìˆ˜ ì…ë ¥ >> ");
 	scanf("%d", &x);
 
-	(x % 2 == 0) ? printf("%d´Â Â¦¼öÀÔ´Ï´Ù.\n", x) : printf("%d´Â È¦¼öÀÔ´Ï´Ù.\n", x);
+	(x % 2 == 0) ? printf("%dëŠ” ì§ìˆ˜ì…ë‹ˆë‹¤.\n", x) : printf("%dëŠ” í™€ìˆ˜ì…ë‹ˆë‹¤.\n", x);
 
 	return 0;
 }
