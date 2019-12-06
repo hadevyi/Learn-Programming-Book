@@ -1,19 +1,18 @@
-//ÀÎÁ¦´ëÇĞ±³ ÄÄÇ»ÅÍ°øÇĞºÎ 16ÇĞ¹ø ´çÇö¾Æ ÀÛ¼º(Email : dang0113@naver.com)
+//ì¸ì œëŒ€í•™êµ ì»´í“¨í„°ê³µí•™ë¶€ 16í•™ë²ˆ ë‹¹í˜„ì•„ ì‘ì„±(Email : dang0113@naver.com)
 #include <stdio.h>
 
-int main()
-{
+int main(){
 	int x, y;
 
-	printf("Á¤¼ö1 >> "); scanf("%d", &x);
-	printf("Á¤¼ö2 >> "); scanf("%d", &y);
+	printf("ì •ìˆ˜1 >> "); scanf("%d", &x);
+	printf("ì •ìˆ˜2 >> "); scanf("%d", &y);
 	printf("\n");
 
 	printf("%d + %d = %d\n", x, y, x + y);
 	printf("%d - %d = %d\n", x, y, x - y);
 	printf("%d * %d = %d\n", x, y, x*y);
-	printf("%d / %d = %d\n", x, y, x / y);		// Á¤¼ö/Á¤¼ö °á°ú´Â Á¤¼ö
-	printf("%d %% %d = %d\n\n", x, y, x%y);		// %%´Â '%'¸¦ Ãâ·Â
+	printf("%d / %d = %d\n", x, y, x / y);		// ì •ìˆ˜/ì •ìˆ˜ ê²°ê³¼ëŠ” ì •ìˆ˜
+	printf("%d %% %d = %d\n\n", x, y, x%y);		// %%ëŠ” '%'ë¥¼ ì¶œë ¥
 
 	printf("%d / %.1lf = %.1lf\n", x, 3.0, x / 3.0);
 
