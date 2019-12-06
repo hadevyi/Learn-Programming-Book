@@ -1,17 +1,16 @@
-//ÀÎÁ¦´ëÇĞ±³ ÄÄÇ»ÅÍ°øÇĞºÎ 16ÇĞ¹ø ´çÇö¾Æ ÀÛ¼º(Email : dang0113@naver.com)
+//ì¸ì œëŒ€í•™êµ ì»´í“¨í„°ê³µí•™ë¶€ 16í•™ë²ˆ ë‹¹í˜„ì•„ ì‘ì„±(Email : dang0113@naver.com)
 #include <stdio.h>
 
-int main()
-{
+int main(){
 	int n1, n2, max, min;
 
-	printf("µÎ Á¤¼ö ÀÔ·Â : ");
+	printf("ë‘ ì •ìˆ˜ ì…ë ¥ : ");
 	scanf("%d %d", &n1, &n2);
 
 	(n1 > n2) ? (max = n1, min = n2) : (max = n2, min = n1);
 
-	printf("\n>> Å« ¼ö / ÀÛÀº ¼ö = %d\n", max / min);
-	printf(">> Å« ¼ö %% ÀÛÀº ¼ö = %d\n", max%min);
+	printf("\n>> í° ìˆ˜ / ì‘ì€ ìˆ˜ = %d\n", max / min);
+	printf(">> í° ìˆ˜ %% ì‘ì€ ìˆ˜ = %d\n", max%min);
 
 	return 0;
 }
