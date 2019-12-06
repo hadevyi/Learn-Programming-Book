@@ -1,26 +1,25 @@
-//ÀÎÁ¦´ëÇĞ±³ ÄÄÇ»ÅÍ°øÇĞºÎ 16ÇĞ¹ø ´çÇö¾Æ ÀÛ¼º(Email : dang0113@naver.com)
+//ì¸ì œëŒ€í•™êµ ì»´í“¨í„°ê³µí•™ë¶€ 16í•™ë²ˆ ë‹¹í˜„ì•„ ì‘ì„±(Email : dang0113@naver.com)
 #include <stdio.h>
 
-int main()
-{
+int main(){
 	int x, y;
 
 	x = y = 5;
 
 	printf("x = %d, y = %d\n", x, y);
-	printf("x += yÀÇ °á°ú´Â %d\n\n", x += y);
+	printf("x += yì˜ ê²°ê³¼ëŠ” %d\n\n", x += y);
 
 	printf("x = %d, y = %d\n", x, y);
-	printf("x -= yÀÇ °á°ú´Â %d\n\n", x -= y);
+	printf("x -= yì˜ ê²°ê³¼ëŠ” %d\n\n", x -= y);
 
 	printf("x = %d, y = %d\n", x, y);
-	printf("x *= yÀÇ °á°ú´Â %d\n\n", x *= y);
+	printf("x *= yì˜ ê²°ê³¼ëŠ” %d\n\n", x *= y);
 
 	printf("x = %d, y = %d\n", x, y);
-	printf("x /= yÀÇ °á°ú´Â %d\n\n", x /= y);
+	printf("x /= yì˜ ê²°ê³¼ëŠ” %d\n\n", x /= y);
 
 	printf("x = %d, y = %d\n", x, y);
-	printf("x %%= yÀÇ °á°ú´Â %d\n\n", x %= y);
+	printf("x %%= yì˜ ê²°ê³¼ëŠ” %d\n\n", x %= y);
 
 	return 0;
 }
