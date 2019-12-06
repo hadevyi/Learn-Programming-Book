@@ -1,17 +1,16 @@
-//ÀÎÁ¦´ëÇĞ±³ ÄÄÇ»ÅÍ°øÇĞºÎ 16ÇĞ¹ø ´çÇö¾Æ ÀÛ¼º(Email : dang0113@naver.com)
+//ì¸ì œëŒ€í•™êµ ì»´í“¨í„°ê³µí•™ë¶€ 16í•™ë²ˆ ë‹¹í˜„ì•„ ì‘ì„±(Email : dang0113@naver.com)
 #include <stdio.h>
 
-int main()
-{
+int main(){
 	int x, y;
 
 	x = 1;
 
-	printf("xÀÇ °ª : %d\n", x);
-	printf("x+1ÀÇ °ª : %d\n", x + 1);
-	printf("y=x+1ÀÇ °á°ú : %d\n", y = x + 1);
-	printf("y=1+(x=2+3)ÀÇ °á°ú : %d\n", y = 1 + (x = 2 + 3));
-	printf("y=x=5ÀÇ °á°ú : %d\n", y = x = 5);
+	printf("xì˜ ê°’ : %d\n", x);
+	printf("x+1ì˜ ê°’ : %d\n", x + 1);
+	printf("y=x+1ì˜ ê²°ê³¼ : %d\n", y = x + 1);
+	printf("y=1+(x=2+3)ì˜ ê²°ê³¼ : %d\n", y = 1 + (x = 2 + 3));
+	printf("y=x=5ì˜ ê²°ê³¼ : %d\n", y = x = 5);
 
 	return 0;
 }
