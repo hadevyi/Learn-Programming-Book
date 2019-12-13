@@ -1,5 +1,6 @@
-# C programming :The first C-language book for new students
-[한빛] [한빛] C 프로그래밍 : 새내기를 위한 첫 C언어 책
+## C programming : The first C-language book for new students
+한빛 - C 프로그래밍 : 새내기를 위한 첫 C언어 책
+
 
 ### <개요>
 
