@@ -1,4 +1,5 @@
-# : The first C-language book for new students
+# C Programming
+## : The first C-language book for new students
 
 [한빛] C 프로그래밍 : 새내기를 위한 첫 C언어 책
 
