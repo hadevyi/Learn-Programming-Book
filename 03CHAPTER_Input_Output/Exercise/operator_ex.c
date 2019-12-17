@@ -2,7 +2,7 @@
 
 int main(){
 	int op1 = 10, op2 = -20, sum;
-
+	
 	sum = op1 + op2;
 
 	printf("%d+%d = %d\n", op1, op2, sum);
