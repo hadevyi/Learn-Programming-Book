@@ -18,13 +18,13 @@
 
 ### <내용>
 
-# HTML5
+#### HTML5
 - Chapter 01. HTML 기본 다지기 - HTML의 개념
 - Chapter 02. 텍스트 관련 태그 - blockquote, p, pre, sapn, mark, list, table
 - Chapter 03. 이미지와 하이퍼링크 - img
 - Chapter 04. 폼 관련 태그들 - from, input, radio button, checkbos, data list, textarea
 
-#CSS3
+#### CSS3
 - Chapter 05. CSS 기초 - Style sheet, cascading
 - Chapter 06. 텍스트 관련 스타일 - Font Style, List Style
 - Chapter 07. 색상과 배경을 위한 스타일 - background attachment/clip/img/origin etc.
