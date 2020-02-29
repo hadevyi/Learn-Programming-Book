@@ -3,6 +3,7 @@ import turtle
 t = turtle.Turtle()
 t.color("red")
 t.shape('turtle')
+
 n = 0
 
 while n < 10 :
