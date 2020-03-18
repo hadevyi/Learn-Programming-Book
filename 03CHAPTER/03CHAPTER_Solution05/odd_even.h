@@ -4,9 +4,10 @@
 class Random {
 	int start_num;
 	int end_num;
-public:
+public :
 	Random();
+	Random(int n1, int n2);
 	int EvenRandom();
-	int OddRandom(int n1, int n2);
+	int OddRandom();
 };
 #endif // !ODD_EVEN
