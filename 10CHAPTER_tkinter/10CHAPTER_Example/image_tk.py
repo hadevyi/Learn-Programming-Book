@@ -3,7 +3,7 @@ from PIL import ImageTk, Image
 
 def change_img() :
     path = inputBox.get()
-    img = PhotoImage(file = path)
+    img = ImageTk.PhotoImage(Image.open(path))
     imageLabel.configure(image = img)
     imageLabel.image = img
 
