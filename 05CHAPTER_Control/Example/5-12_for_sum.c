@@ -7,7 +7,7 @@ int main() {
 		sum = 0;
 		for (i = 1; i <= n; i++)
 			sum = sum + i;
-		printf("1~%2d±îÁöÀÇ ÇÕ : %2d \n", n, sum);
+		printf("1~%2dê¹Œì§€ì˜ í•© : %2d \n", n, sum);
 	}
 	return 0;
 }
