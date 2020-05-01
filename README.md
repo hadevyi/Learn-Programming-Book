@@ -24,3 +24,5 @@
 - Chapter 02. 변수와 자료형 - C 프로그램 구조 / 자료형의 표현
 - Chapter 03. 입력과 출력 - 입력함수 scanf / 출력함수 printf / 문자-문자열 전용 입출력 함수
 - Chapter 04. 연산자 - 연산자의 종류 / 우선순위와 결합 방향
+- Chapter 05. 제어문 - if문 / swich문 / for문 / while문 / goto, break 등
+- Chapter 07. 배열 - 1~3차원 배열 / Bubble 정리 / Char형 
