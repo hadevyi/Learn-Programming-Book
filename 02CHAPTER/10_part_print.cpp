@@ -1,4 +1,3 @@
-//2017-1 C++ 20163131 당현아
 #include <iostream>
 using namespace std;
 

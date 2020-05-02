@@ -1,4 +1,3 @@
-//2017-1학기 C++ 20163131 당현아
 #include <iostream>
 #include <cstring>
 using namespace std;
