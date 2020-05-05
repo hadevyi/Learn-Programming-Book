@@ -1,6 +1,16 @@
 #include <iostream>
-#include "Box.h"
 using namespace std;
+
+class Box {
+	int width, height;
+	char fill;
+public:
+	Box();
+	Box(int w, int h);
+	void setFill(char c);
+	void setSize(int w, int h);
+	void draw();
+};
 
 Box::Box() {
 	width = 1;
@@ -32,4 +42,17 @@ void Box::draw() {
 		if (i % width == 0)
 			cout << '\n';
 	}
+}
+
+void main() {
+	Box b(10, 2);
+	b.draw();
+
+	cout << endl << endl;
+
+	b.setSize(7, 4);
+	b.setFill('^');
+	b.draw();
+
+	cout << endl << endl;
 }

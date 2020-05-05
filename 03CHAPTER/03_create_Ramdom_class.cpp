@@ -1,7 +1,16 @@
-//2017-1학기 C++ 20163131 당현아
+#include <iostream>
 #include <cstdlib>
 #include <ctime>
-#include "Random.h"
+using namespace std;
+
+class Random {
+	int start_num;
+	int end_num;
+public:
+	Random();
+	int next();
+	int nextInRange(int n1, int n2);
+};
 
 Random::Random() {
 	start_num = 1;
@@ -22,4 +31,26 @@ int Random::nextInRange(int n1, int n2) {
 
 	return n1 + (rand() % (n2 - n1 + 1));
 	//To specify the range of the range function = start value + (land() % (end value - start value + 1)
+}
+
+
+void main()
+{
+	Random r;
+
+	cout << "\n- At zero. " << RAND_MAX << "10 random integers to--" << endl;
+
+	for (int i = 0; i < 10; i++) {
+		int n = r.next();
+		cout << n << ' ';
+	}
+
+	cout << endl << endl << "10 random integers from --2 to 4--" << endl;
+
+	for (int i = 0; i < 10; i++) {
+		int n = r.nextInRange(2, 4);
+		cout << n << ' ';
+	}
+
+	cout << endl << endl;
 }

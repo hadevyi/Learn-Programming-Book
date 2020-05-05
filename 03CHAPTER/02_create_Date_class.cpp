@@ -1,6 +1,20 @@
-//2017-1학기 C++ 20163131 당현아 
 #include <iostream>
-#include "Date.h"
+#include <string>
+using namespace std;
+
+class Date {
+	int year;
+	int month;
+	int day;
+public:
+	Date();
+	Date(int a, int b, int c);
+	Date(string s);
+	void show();
+	int getYear();
+	int getMonth();
+	int getDay();
+};
 
 Date::Date() {
 	year = 1;
@@ -40,4 +54,11 @@ int Date::getMonth() {
 
 int Date::getDay() {
 	return day;
+}
+
+void main() {
+	Date birth(2014, 3, 20);
+	Date independenceDay("1945/8/15");
+	independenceDay.show();
+	cout << birth.getYear() << ',' << birth.getMonth() << ',' << birth.getDay() << endl;
 }

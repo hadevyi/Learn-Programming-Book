@@ -1,7 +1,25 @@
-//2017-1학기 C++ 20163131 당현아
 #include <iostream>
-#include "Tower.h"
 using namespace std;
+
+class Tower {
+	int height;
+public:
+	Tower();
+	Tower(int h);
+	int getHeight();
+};
+
+Tower::Tower() {
+	height = 1;
+}
+
+Tower::Tower(int h) {
+	height = h;
+}
+
+int Tower::getHeight() {
+	return height;
+}
 
 void main() {
 	Tower myTower;
