@@ -1,7 +1,25 @@
 #include <iostream>
 #include <string>
-#include "Player.h"
 using namespace std;
+
+class Word {
+	int num;
+	string bese;
+	string now;
+public:
+	Word();
+	void game();
+};
+
+class Player {
+	int number;
+	int count;
+	string *name;
+public:
+	Player(int n);
+	~Player();
+	string getName();
+};
 
 Player::Player(int n) {
 	number = n;
@@ -27,4 +45,9 @@ string Player::getName() {
 	string named = name[count];
 
 	return named;
+}
+
+void main() {
+	Word w;
+	w.game();
 }
