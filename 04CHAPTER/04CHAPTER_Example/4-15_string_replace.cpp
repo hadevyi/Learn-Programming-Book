@@ -12,20 +12,20 @@ int main(){
 	string f, r;
 
 	cout << endl << "find : ";
-	getline(cin, f, '\n');
+	getline(cin, f, '\n');		// 검색할 문자열 입력
 
 	cout << "replace : ";
-	getline(cin, r, '\n');
+	getline(cin, r, '\n');		// 대치할 문자열 입력
 
 	int startIndex = 0;
 
 	while (true)
 	{
-		int fIndex = s.find(f, startIndex);
+		int fIndex = s.find(f, startIndex);		// startIndex부터 문자열 f검색
 
-		if (fIndex == -1) { break; }
+		if (fIndex == -1) { break; }			// 문자열 s의 끝까지 변경하였음
 
-		s.replace(fIndex, f.length(), r);
+		s.replace(fIndex, f.length(), r);		// fIndex부터 문자열 f의 길이만큼 문자열 r로 변경
 		startIndex = fIndex + r.length();
 	}
 

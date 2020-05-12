@@ -26,7 +26,7 @@ void Circle::setRadius(int r) { radius = r; }
 double Circle::getArea() { return 3.14*radius*radius; }
 
 void main(){
-	Circle *pArray = new Circle[3];
+	Circle *pArray = new Circle[3];		// 객체 배열의 동적 생성
 
 	pArray[0].setRadius(10);
 	pArray[1].setRadius(20);
@@ -35,12 +35,12 @@ void main(){
 	for (int i = 0; i < 3; i++)
 		cout << pArray[i].getArea() << endl;
 
-	Circle *p = pArray;
+	Circle *p = pArray;		// 포인터 p에 배열의 주소값 설정
 
 	for (int i = 0; i < 3; i++)	{
 		cout << p->getArea() << endl;
-		p++;
+		p++;				// 다음 원소의 주소로 증가
 	}
 
-	delete[] pArray;
+	delete[] pArray;		// 객체 배열 반환
 }

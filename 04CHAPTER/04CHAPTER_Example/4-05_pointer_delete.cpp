@@ -11,7 +11,7 @@ int main(){
 		return 0;
 	}
 
-	*p = 5;
+	*p = 5;		// 할당 받은 정수 공간에 5를 기록
 	int n = *p;
 	cout << "*p = " << *p << endl;
 	cout << "n = " << n << endl;
