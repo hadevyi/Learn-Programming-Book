@@ -1,6 +1,39 @@
 #include <iostream>
-#include "CircleManager.h"
+#include <string>
 using namespace std;
+
+class Circle {
+	int radius;
+	string name;
+public:
+	void setCircle(string name, int radius);
+	double getArea();
+	string getName();
+};
+
+class CircleManager {
+	Circle *p;
+	int size;
+public:
+	CircleManager();
+	CircleManager(int size);
+	~CircleManager();
+	void serachByName();
+	void serchByArea();
+};
+
+void Circle::setCircle(string name, int radius) {
+	this->radius = radius;
+	this->name = name;
+}
+
+double Circle::getArea() {
+	return 3.14*radius*radius;
+}
+
+string Circle::getName() {
+	return name;
+}
 
 CircleManager::CircleManager() {}
 
@@ -48,4 +81,15 @@ void CircleManager::serchByArea() {
 			cout << "the area of  " << p[i].getName() << p[i].getArea() << ", ";
 
 	cout << endl;
+}
+
+void main() {
+	int num;
+
+	cout << "the number of circles>> ";
+	cin >> num;
+
+	CircleManager CM(num);
+	CM.serachByName();
+	CM.serchByArea();
 }

@@ -2,7 +2,16 @@
 #include <cstdlib>
 #include <string>
 #include <ctime>
-using namespace std;
+#include <string>
+
+class random_change {
+	int leght, ran, abc;
+	string abc_ran[26];
+	string s;
+public:
+	random_change();
+	void in_string();
+};
 
 class random_change {
 	int leght, ran, abc;
@@ -41,4 +50,9 @@ void random_change::in_string() {
 		s.replace(ran, 1, abc_ran[abc]);
 		cout << s << endl;
 	}
+}
+
+void main() {
+	random_change r;
+	r.in_string();
 }

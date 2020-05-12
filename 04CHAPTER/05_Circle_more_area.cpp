@@ -1,6 +1,12 @@
 #include <iostream>
-#include "Circle.h"
-using namespace std; 
+using namespace std;
+
+class Circle {
+	int radius;
+public:
+	void setradius(int radius);
+	double getArea();
+};
 
 void Circle::setradius(int radius) {
 	int num = radius, ragi = 0;
@@ -19,4 +25,10 @@ void Circle::setradius(int radius) {
 double Circle::getArea()
 {
 	return 3.14*radius*radius;
+}
+
+void main() {
+	Circle c;
+	c.setradius(3);
+	c.getArea();
 }

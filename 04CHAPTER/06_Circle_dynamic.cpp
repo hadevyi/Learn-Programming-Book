@@ -1,6 +1,13 @@
 #include <iostream>
-#include "Circle.h"
-using namespace std;
+using namespace std; 
+
+class Circle {
+	int radius;
+	int num;
+public:
+	void setRadius(int radius);
+	double getArea();
+};
 
 void Circle::setRadius(int radius) {
 	int num = radius, ragi = 0;
@@ -20,4 +27,14 @@ void Circle::setRadius(int radius) {
 double Circle::getArea()
 {
 	return 3.14*radius*radius;
+}
+
+void main() {
+	Circle c;
+	int num;
+
+	cout << "the number of circles : ";
+	cin >> num;
+
+	c.setRadius(num);
 }

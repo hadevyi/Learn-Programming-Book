@@ -1,7 +1,29 @@
 #include <iostream>
 #include <string>
-#include "Person.h"
 using namespace std;
+
+class Person {
+	string name;
+	string tel;
+public:
+	Person();
+	string getName();
+	string getTel();
+	void set(string name, string tel);
+};
+
+Person::Person() {
+	name = "A";
+	tel = "012-3456-7890";
+}
+
+string Person::getName() { return name; }
+string Person::getTel() { return tel; }
+
+void Person::set(string name, string tel) {
+	this->name = name;
+	this->tel = tel;
+}
 
 void main() {
 	Person p_n[3];

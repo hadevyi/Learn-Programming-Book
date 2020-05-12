@@ -1,8 +1,18 @@
 #include <iostream>
 #include <cstring>
 #include <string>
-#include "Histogram.h"
 using namespace std;
+
+class Histogram {
+	string s;
+	int legth;
+	int abc[26];
+public:
+	Histogram(string s);
+	void put(string s);
+	void putc(char c);
+	void print();
+};
 
 Histogram::Histogram(string s) {
 	legth = 0;
@@ -50,4 +60,13 @@ void Histogram::print() {
 
 		cout << endl;
 	}
+}
+
+void main()
+{
+	Histogram elvisHisto("Wise men say, only fools rush in But I can't help, ");
+	elvisHisto.put("falling in love with you");
+	elvisHisto.putc('-');
+	elvisHisto.put("Elvis Preslsy");
+	elvisHisto.print();
 }

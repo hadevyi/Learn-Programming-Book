@@ -1,7 +1,13 @@
 #include <iostream>
 #include <string>
-#include "Back.h"
 using namespace std;
+
+class Back {
+	int leght;
+	string s;
+public:
+	void print();
+};
 
 void Back::print() {
 	cout << "Please enter a line below (exit will exit)" << endl;
@@ -19,4 +25,9 @@ void Back::print() {
 
 		cout << endl;
 	}
+}
+
+void main() {
+	Back b;
+	b.print();
 }

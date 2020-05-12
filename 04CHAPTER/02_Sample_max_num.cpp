@@ -1,6 +1,16 @@
 #include <iostream>
-#include "Sample.h"
 using namespace std;
+
+class Sample {
+	int *p;
+	int size;
+public:
+	Sample(int n);
+	~Sample();
+	void read();
+	void write();
+	int big();
+};
 
 Sample::Sample(int n) {
 	size = n;
@@ -37,4 +47,11 @@ int Sample::big() {
 			max = p[i];
 
 	return max;
+}
+
+void main() {
+	Sample s(10);
+	s.read();
+	s.write();
+	cout << "\n\nMost Big number is " << s.big() << endl << endl;
 }
