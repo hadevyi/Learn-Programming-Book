@@ -1,4 +1,18 @@
-#include "MyIntStack.h"
+#include <iostream>
+using namespace std;
+
+class MyIntStack {
+	int *p;
+	int size;
+	int tos;
+public:
+	MyIntStack();
+	MyIntStack(int size);
+	MyIntStack(MyIntStack&s);
+	~MyIntStack();
+	bool push(int n);
+	bool pop(int &n);
+};
 
 MyIntStack::MyIntStack() {}
 
@@ -29,4 +43,19 @@ bool MyIntStack::pop(int &n) {
 	else { n = p[tos]; return true; }
 
 	tos--;
+}
+
+void main() {
+	MyIntStack a(10);
+	a.push(10);
+	a.push(10);
+
+	MyIntStack b = a;
+	b.push(30);
+
+	int n;
+	a.pop(n);
+	cout << "Value to Stack A = " << n << endl;
+	b.pop(n);
+	cout << "Value to Stack B = " << n << endl;
 }
