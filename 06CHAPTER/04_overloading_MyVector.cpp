@@ -1,6 +1,14 @@
 #include <iostream>
-#include "MyVector.h"
 using namespace std;
+
+class MyVector {
+	int* mem;
+	int size;
+public:
+	MyVector(int n = 100, int val = 0);
+	void show();
+	~MyVector();
+};
 
 MyVector::MyVector(int n, int val)
 {
@@ -25,3 +33,11 @@ void MyVector::show()
 }
 
 MyVector::~MyVector() { delete[]mem; }
+
+void main()
+{
+	MyVector MV, MV2(3, 2);
+
+	MV.show();
+	MV2.show();
+}

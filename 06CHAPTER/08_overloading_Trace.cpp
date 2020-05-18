@@ -1,7 +1,15 @@
 #include <iostream>
 #include <string>
-#include "Trace.h"
 using namespace std;
+
+class Trace {
+	static string* tag;
+	static string* info;
+	static int num;
+public:
+	static void put(string s1, string s2);
+	static void print(string s1 = "All");
+};
 
 int Trace::num = 0;
 string* Trace::tag = new string[100];
@@ -32,4 +40,25 @@ void Trace::print(string s1)
 			if (tag[i] == s1)
 				cout << tag[i] << " : " << info[i] << endl;
 	}
+}
+
+void f()
+{
+	int a, b, c;
+	cout << "두 개의 정수를 입력하세요 >> ";
+	cin >> a >> b;
+	Trace::put("f()", "정수를 입력 받았음");
+	c = a + b;
+	Trace::put("f()", "합 계산");
+	cout << "합은 " << c << endl;
+}
+
+void main()
+{
+	Trace::put("main()", "프로그램 시작합니다.");
+	f();
+	Trace::put("main()", "종료");
+
+	Trace::print("f()");
+	Trace::print();
 }
