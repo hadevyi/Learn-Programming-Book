@@ -2,10 +2,19 @@
 #include <cstdlib>
 #include <string>
 #include <ctime>
-#include "Person.h"
 using namespace std;
 
-void Person::game(){
+class Person
+{
+	string name[2];
+	int down;
+	int up;
+public:
+	Person();
+	void game();
+};
+
+void Person::game() {
 	int random = rand() % 100; //Create random value.
 	int name_cnt = 0; //Count for name output
 	int num; // Enter Value
@@ -41,4 +50,12 @@ void Person::game(){
 		else
 			name_cnt++;
 	}
+}
+
+
+void main(){
+	Person p;
+
+	cout << "Start the Up & Down game." << endl;
+	p.game();
 }
