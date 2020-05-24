@@ -26,3 +26,8 @@
 - Chapter 04. 연산자 - 연산자의 종류 / 우선순위와 결합 방향
 - Chapter 05. 제어문 - if문 / swich문 / for문 / while문 / goto, break 등
 - Chapter 07. 배열 - 1~3차원 배열 / Bubble 정리 / Char형 
+- Chapter 08. 함수 - 함수의 선언과 활용 / call by value, call by address의 차이
+- Chapter 09. 지속 범위
+- Chapter 10. 포인터 - 포인터 개념 / 포인터 함수 활용
+- Chapter 11. 구조체 - 구조체의 개념 / 동적할당(malloc, free)
+- Chapter 12. 파일 입출력
