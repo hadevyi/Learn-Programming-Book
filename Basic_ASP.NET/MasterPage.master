@@ -1,0 +1,103 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 800px;
+            height: 600px;
+        }
+        .style3
+        {
+            width: 80px;
+            height: 504px;
+        }
+        .style4
+        {
+            width:800px;
+            height: 67px;
+            text-align: center;
+        }
+        .style5
+        {
+            width:720px;
+            height: 504px;
+        }
+        .style6
+        {
+            font-size: small;
+            color: #999999;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+    </div>
+    <table class="style1">
+        <tr>
+            <td class="style4" colspan="2">
+                <asp:Image ID="Image1" runat="server" ImageUrl="~/image/WebII_logo.jpg" />
+            </td>
+        </tr>
+        <tr>
+            <td class="style3" bgcolor="#EAEAEA">
+                <asp:Menu ID="Menu1" runat="server">
+                    <Items>
+                        <asp:MenuItem Text="Home" Value="Home" NavigateUrl="~/Home.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="AboutMe" Value="AboutMe" NavigateUrl="~/AboutMe.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="Chapter_EX" Value="Chapter_EX">
+                            <asp:MenuItem Text="Chapt_4" Value="Chapt_4">
+                                <asp:MenuItem Text="Pro4-1-1" Value="Pro4-1-1" 
+                                    NavigateUrl="~/Chapter 4/pro4-1-1.aspx"></asp:MenuItem>
+                                <asp:MenuItem Text="Pro4-2-1" Value="Pro4-2-1" 
+                                    NavigateUrl="~/Chapter 4/pro4-2-1.aspx"></asp:MenuItem>
+                                <asp:MenuItem Text="Pro4-4-1" Value="Pro4-4-1" 
+                                    NavigateUrl="~/Chapter 4/pro4-4-1.aspx"></asp:MenuItem>
+                                <asp:MenuItem Text="Pro4-4-2" Value="Pro4-4-2" 
+                                    NavigateUrl="~/Chapter 4/pro4-4-2.aspx"></asp:MenuItem>
+                            </asp:MenuItem>
+                            <asp:MenuItem Text="Chapt_5" Value="Chapt_5"></asp:MenuItem>
+                            <asp:MenuItem Text="Album" Value="Album"></asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="Weekly_Assignment" Value="Weekly_Assignment">
+                            <asp:MenuItem Text="Chpat_4" Value="Chpat_4">
+                                <asp:MenuItem Text="ASSIGNMENT_1" Value="ASSIGNMENT_1" 
+                                    NavigateUrl="~/Weekly_Assignment/ASSIFNMENT_1.aspx"></asp:MenuItem>
+                                <asp:MenuItem Text="ASSIGNMENT_2" Value="ASSIGNMENT_2" 
+                                    NavigateUrl="~/Weekly_Assignment/ASSIFNMENT_2.aspx"></asp:MenuItem>
+                                <asp:MenuItem Text="ASSIGNMENT_3" Value="ASSIGNMENT_3" 
+                                    NavigateUrl="~/Weekly_Assignment/ASSIGNMENT_3.aspx"></asp:MenuItem>
+                                <asp:MenuItem Text="ASSIGNMENT_4" Value="ASSIGNMENT_4" 
+                                    NavigateUrl="~/Weekly_Assignment/ASSIFNMENT_4.aspx"></asp:MenuItem>
+                            </asp:MenuItem>
+                            <asp:MenuItem Text="Chapt_5" Value="Chapt_5">
+                                <asp:MenuItem Text="ASSIGNMENT_1" Value="ASSIGNMENT_1"></asp:MenuItem>
+                                <asp:MenuItem Text="ASSIGNMENT_2" Value="ASSIGNMENT_2"></asp:MenuItem>
+                                <asp:MenuItem Text="ASSIGNMENT_3" Value="ASSIGNMENT_3"></asp:MenuItem>
+                                <asp:MenuItem Text="ASSIGNMENT_4" Value="ASSIGNMENT_4"></asp:MenuItem>
+                            </asp:MenuItem>
+                        </asp:MenuItem>
+                    </Items>
+                </asp:Menu>
+            </td>
+            <td class="style5" bgcolor="#99CC00" style="background-color: #C0C0C0">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+            </td>
+        </tr>
+        <tr>
+            <td  class="style4" colspan="2">&nbsp;
+            <span class="style6">CopyRight Dang Hyeon-A</span></td>
+        </tr>
+    </table>
+    </form>
+    </body>
+</html>

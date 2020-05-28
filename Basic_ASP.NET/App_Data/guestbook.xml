@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<guestbook>
+  <guest name="이호남" email="ywlee@inje.ac.kr" title="ASP 도사" body="새로운 도전 ASP.NET" time="2016-11-30 오전 10:41:37" />
+  <guest name="성춘향" email="chsung@inje.ac.kr" title="어사 출도가" body="금주미주는 천인혈이요" time="2016-11-30 오전 10:41:37" />
+  <guest name="주논개" email="ngju@inje.ac.kr" title="촉석루의 연회" body="Shall we dance with me!" time="2016-11-30 오전 10:41:37" />
+</guestbook>
