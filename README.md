@@ -23,8 +23,6 @@ HTML5와 CSS3에 대한 숙지 확인을 목표로 진행한 단기 개발로 HT
 
 - 프로젝트 발표 자료
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1bec9c59-35af-4038-8210-b0454ae1ccaa/2.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1bec9c59-35af-4038-8210-b0454ae1ccaa/2.png)
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/dff54556-8981-4061-88e7-5bd90db7ed37/3.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/dff54556-8981-4061-88e7-5bd90db7ed37/3.png)
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1f80b200-21f6-43c4-98dc-902aadcc8f31/4.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1f80b200-21f6-43c4-98dc-902aadcc8f31/4.png)
+![INJE_CE (1)](https://user-images.githubusercontent.com/45550607/83281076-84d6c480-a212-11ea-99a1-67bfdb55c980.PNG)
+![INJE_CE (2)](https://user-images.githubusercontent.com/45550607/83281083-8607f180-a212-11ea-8ee1-6a8d9c8450f8.PNG)
+![INJE_CE (3)](https://user-images.githubusercontent.com/45550607/83281085-86a08800-a212-11ea-958f-597befa7cee0.PNG)
