@@ -1,8 +1,6 @@
-#pragma once
-#ifndef CIRCLE
-#define CIRCLE
 #include <iostream>
 using namespace std;
+
 class Circle {
 	int radius;
 public:
@@ -11,4 +9,25 @@ public:
 	friend void operator++(Circle& op);
 	friend Circle operator++(Circle& op, int n);
 };
-#endif // !CIRCLE
+
+void operator++(Circle& op)
+{
+	op.radius++;
+}
+
+Circle operator++(Circle& op, int n)
+{
+	Circle temp;
+	temp.radius = op.radius;
+	op.radius++;
+	return temp;
+}
+
+void main()
+{
+	Circle a(5), b(4);
+	++a;
+	b = a++;
+	a.show();
+	b.show();
+}

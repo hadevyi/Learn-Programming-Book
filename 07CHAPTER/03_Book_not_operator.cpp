@@ -1,6 +1,3 @@
-#pragma once
-#ifndef BOOK
-#define BOOK
 #include <iostream>
 #include <string>
 using namespace std;
@@ -14,4 +11,19 @@ public:
 	string getTitle() { return title; }
 	bool operator!();
 };
-#endif // !BOOK
+
+bool Book::operator!()
+{
+	if (price == 0)
+		return true;
+	else
+		return false;
+}
+
+void main()
+{
+	Book book("market", 0, 50);
+
+	if (!book)
+		cout << "free" << endl;
+}

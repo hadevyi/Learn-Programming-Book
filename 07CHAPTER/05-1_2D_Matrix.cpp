@@ -1,6 +1,16 @@
 #include <iostream>
-#include "Matrix_1.h"
 using namespace std;
+
+class Matrix {
+	int array[2][2];
+public:
+	Matrix(int one = 0, int two = 0, int three = 0, int four = 0);
+	void show();
+	Matrix operator+(Matrix op);
+	Matrix operator+=(Matrix op);
+	bool operator==(Matrix op);
+};
+
 
 Matrix::Matrix(int one, int two, int three, int four)
 {
@@ -48,4 +58,17 @@ bool Matrix::operator==(Matrix op)
 		return true;
 	else
 		return false;
+}
+
+void main()
+{
+	Matrix a(1, 2, 3, 4), b(2, 3, 4, 5), c;
+	c = a + b;
+	a += b;
+	a.show();
+	b.show();
+	c.show();
+
+	if (a == c)
+		cout << "a and c are the same" << endl;
 }

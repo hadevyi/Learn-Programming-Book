@@ -1,6 +1,3 @@
-#pragma once
-#ifndef BOOK
-#define BOOK
 #include <iostream>
 #include <string>
 using namespace std;
@@ -13,5 +10,25 @@ public:
 	string getTitle() { return title; }
 	friend Book operator+=(Book& op, int x);
 	friend Book operator-=(Book& op, int x);
-};
-#endif // !BOOK
+}; 
+
+Book operator+=(Book& op, int x)
+{
+	op.price += x;
+	return op;
+}
+
+Book operator-=(Book& op, int x)
+{
+	op.price -= x;
+	return op;
+}
+
+void main()
+{
+	Book a("A", 20000, 300), b("B", 30000, 500);
+	a += 500;
+	b -= 500;
+	a.show();
+	b.show();
+}
