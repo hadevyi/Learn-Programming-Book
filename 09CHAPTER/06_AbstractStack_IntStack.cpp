@@ -1,6 +1,63 @@
 #include <iostream>
-#include "IntStack.h"
 using namespace std;
+
+class AbstractStack {
+public:
+	virtual bool push(int n) = 0;	//Push n to stack. If the stack is full, false return
+	virtual bool pop(int& n) = 0;	//Store the integer you pop in the stack to n and return if the stack is empty
+	virtual int size() = 0;	//Returns the number of integers stored in the current stack
+};
+
+class IntStack :public AbstractStack {
+	int* arr;
+	int max;
+	int cnt;
+public:
+	IntStack(int max) { this->max = max; cnt = 0; arr = new int[max]; }
+	bool push(int n);
+	bool pop(int& n);
+	int size() { return cnt; }
+	void now();
+};
+
+bool IntStack::push(int n) {
+
+	if (cnt >= max)
+		return false;
+
+	arr[cnt] = n;
+	cnt++;
+
+	return true;
+}
+
+bool IntStack::pop(int& n) {
+
+	if (cnt <= 0)
+		return false;
+
+	for (int i = 0; i < cnt; i++)
+		if (arr[i] == n)		{
+			for (int j = i; j < cnt - 1; j++)
+				arr[j] = arr[j + 1];
+
+			arr[cnt] = NULL;
+			cnt--;
+		}
+
+	return true;
+}
+
+void IntStack::now() {
+
+	if (cnt == 0)
+		cout << "No input value." << endl;
+	else	{
+		for (int i = 0; i < cnt; i++)
+			cout << arr[i] << " ";
+		cout << endl;
+	}
+}
 
 void main()
 {

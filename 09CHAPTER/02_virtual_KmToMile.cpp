@@ -1,9 +1,7 @@
-#pragma once
-#ifndef CONVERTER
-#define CONVERTER
 #include <iostream>
 #include <string.h>
 using namespace std;
+
 class Converter {
 protected:
 	double ratio;
@@ -20,4 +18,17 @@ public:
 		cout << "Conversion Results : " << convert(src) << getDestString() << endl;
 	}
 };
-#endif // !CONVERTER
+
+class KmToMile :public Converter {
+public:
+	KmToMile(double ratio) :Converter(ratio) { ; }
+	double convert(double src) { return src / 1.609344; }
+	string getSourceString() { return "Km"; }
+	string getDestString() { return "Mile"; }
+};
+
+void main()
+{
+	KmToMile toMile(1.609344);	//1 mile = 1.609344 Km
+	toMile.run();
+}

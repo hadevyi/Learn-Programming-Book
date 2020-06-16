@@ -1,10 +1,28 @@
-#pragma once
-#ifndef UI
-#define UI
 #include <iostream>
 #include <string>
 using namespace std;
-class UI { 
+
+class Shape {
+public:
+
+};
+
+class GraphicEditor {
+public:
+	GraphicEditor();
+	void paly();
+};
+
+class Circle :public Shape {
+};
+
+class Line :public Shape {
+};
+
+class Rect :public Shape {
+};
+
+class UI {
 public:
 	static int menu()
 	{
@@ -28,4 +46,9 @@ public:
 		return indexnum;
 	}
 };
-#endif // !UI
+
+void main()
+{
+	GraphicEditor g;
+	g.paly();
+}
