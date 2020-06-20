@@ -1,6 +1,16 @@
 #include <iostream>
 using namespace std;
 
+template <class T>
+T biggest(T arr[], int size) {
+	T max = arr[0];
+
+	for (int i = 1; i < size; i++)
+		max = max < arr[i] ? arr[i] : max;
+
+	return max;
+}
+
 void main(){
 	int a[6] = { 1,2,3,4,5,6 };
 	int b[5] = { 7,1,5,2,3 };
