@@ -1,59 +1,62 @@
 # Basic_ASP.NET
-### C#을 활용한 [ASP.NET](http://asp.NET) 기초 과정
 
-### <개요>
+## ASP.NET basic course using C#
+
+<div align="right">
+<a href="https://hits.seeyoufarm.com"/><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/eona1301/Basic_ASP.NET"/></a>
+</div>
 
 - Tool : Visual Studio 2015
 - Class : 2016.08.29 ~ 2016.12.19
-- C# Window Web Form을 활용한 개발로 Database의 기본적인 사용과 그 활용을 통해 원하는 웹 사이트를 개발할 수 있다. 해당 과정들을 진행할 수 있도록 하는 전체 진행 과정이다.
+- With development using C# Window Web Form, you can develop a web site you want through basic use of Database and its use.
 
----
+## Configuration
 
-### <구성>
+All Chapters are attached to the entire project.
 
-프로젝트 전체에 모든 Chapter가 함께 첨부되어 있는 형식입니다.
+For convenient understanding of ASP, it is important to learn in order according to the order of **contents**, and it is a concept that proceeds together using a database rather than a simple page creation, so a detailed understanding of this is also required.
 
-ASP의 순차대로의 이해가 편리하기 위해서는 <내용>의 순서에 따라 순서대로 학습하는게 중요하며, 단순 페이지 제작 후 연결이 아닌 Database를 활용해 같이 진행하는 개념이기에 이에 대한 세부적인 이해도 필요합니다.
+<br>
 
----
+## Procedure List
 
-### <내용>
+| Chapter |         Main         | Detail                                         |
+| :-----: | :------------------: | ---------------------------------------------- |
+|   01    |     What is ASP      |                                                |
+|   02    | What is Master Page? |                                                |
+|   03    |   Configuring aspx   |                                                |
+|   04    |    First project     | First Handler, bgcolor, table, layer, calendar |
+|   05    |   Event Handler 1    | Button, CheckBox, RadioButton, ImageButton     |
+|   06    |   Event Handler 2    | ListBox Overlap, CheckBox, RadioButton go-over |
+|   07    |   Validator Error    | RequiredField, Radnge, Comare, etc.            |
+|   08    |   Database Setting   | How to use mySQL, mySQL CUDA                   |
+|   09    |   Data in Database   | View linkage, DataList, DataTable              |
+|   10    |    DB utilization    | Database write, list-Record Insert             |
 
-- Chapter 01. ASP란
-- Chapter 02. Master Page란?
-- Chapter 03. aspx 구성하기
-- Chapter 04. 프로젝트 첫 실행 하기 - 최초 Handler, bgcolor, table, layer, calendar
-- Chapter 05. Event Handler - Button, CheckBox, RadioButton, ImageButton, DropdwonList, View, AutoTable
-- Chapter 06. ListBox Overlap, CheckBox, RadioButton go-over
-- Chapter 07. Validator Error - RequiredField, Radnge, Comare, RegularExpression, ValidationSummary
-- Chapter 08. Database Setting - mySQL 사용방법, data record, update, select 등 record
-- Chapter 09. Database 내의 Data - View 연동, DataList, DataTable
-- Chapter 10. Database write, list - Record Insert
+<br>
 
----
+## How to install pubs DB
 
-### <pubs DB 설치 방법>
+: Needed from Chapter 08
 
-: Chapter 08부터 필요
+1. Run from command prompt window
 
-1. 명령프롬트창에서 실행
+   ```
+   i) Creating a PUBS database using the instpubs.sql file on the SQLEXPRESS server
+      C:\\Documents and Settings\\admin>sqlcmd -S .\\SQLEXPRESS -i C:\\instpubs.sql
 
-    ```
-    i) SQLEXPRESS 서버에 instpubs.sql 파일을 이용하여 PUBS 데이터베이스 만들기
-       C:\\Documents and Settings\\admin>sqlcmd -S .\\SQLEXPRESS -i C:\\instpubs.sql
+   ii) Create the northwind database using the instnwnd.sql file on the SQLEXPRESS server.
+      C:\\Documents and Settings\\admin>sqlcmd -S .\\SQLEXPRESS -i C:\\instnwnd.sql
 
-    ii) SQLEXPRESS 서버에 instnwnd.sql 파일을 이용하여 northwind 데이터베이스 만들기
-       C:\\Documents and Settings\\admin>sqlcmd -S .\\SQLEXPRESS -i C:\\instnwnd.sql
+   * Case sensitive when executing commands
+   * Here the two sql files are located in the root of the C driver.
+   ```
 
-    * 명령 실행시 대소문자 구별함
-    * 여기서 두개의 sql 파일의 위치는 C 드라이버의 루트에 위치
-    ```
+2. Run in SQL Server Management Studio Express
 
-2. SQL Server Management Studio Express 에서 실행
+   ```
+   i) Download SQLServer@@@@_SSMSEE.msi file and install Management Studio Express
+   ii) Double-click the instpubs.sql file and click the Run icon of Management Studio Express.
 
-    ```
-    i) SQLServer@@@@_SSMSEE.msi 파일을 다운 받아 Management Studio Express 설치
-    ii) instpubs.sql 파일을 더블클릭하여 Management Studio Express 의 실행 아이콘 클릭
-
-    * @@@@은 버전임
-    ```
+   * @@@@ = version
+   ```
