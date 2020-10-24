@@ -1,30 +1,27 @@
 ## Pitapat_Python
-생능 - 두근두근 파이썬
 
-
-### <개요>
+<div align="right"><a href="https://hits.seeyoufarm.com"/><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/eona1301/Pitapat_Python"/></a></div>
 
 - Tool : Visual Studio Code
 - Record : 2020.02.01 ~ing
 
+---
 
-### <구성>
-기본적인 예제문제와 함께 각 예제문제를 발전시킨 도전문제, 각 챕터를 종합적으로 풀어보는 연습문제까지 모두 정리하였습니다. 각 프로그램의 필요한 관련 파일(이미지, bat 등)도 함께 업데이트 하였으니, 이후 필요사항이 있을 때 같이 활용해주시면 됩니다.
+## Procedure List
 
-
-### <내용>
-
-- 1장 : Python 소개 - IDLE란, 파이썬의 최근 추이
-- 2장 : 변수 - 변수의 정의, 입출력 함수(print, input, print의 end 속성), turtle 라이브러리
-- 3장 : 연산자 - 대입연산자, 논리연산자, 산술연산자 등
-- 4장 : 자료형 - int, float, str 간의 변환
-- 5장 : 조건문 - if elif else 구문
-- 6장 : 반복문 - for, while 구문
-- 7장 : 함수 - 함수의 개념, 정의, 인수, 디폴트 인수 
-- 8장 : 프로젝트1
-- 9장 : 파일 입출력
-- 10장 : tkinter (-ing)
-- 11장 : 파일 입출력 (-ing)
-- 12장 : PIL 라이브러리
-- 13장 : 객체와 클래스
-- 14장 : 프로젝트2
+| Order |          Title          |                      Content                       |
+| :---: | :---------------------: | :------------------------------------------------: |
+|  01   |      Introduction       |           IDLE, Recent Trends in Python            |
+|  02   |      Variable, I/O      |       Definition of variable, turtle library       |
+|  03   |        Operators        |        logical, arithmetic operators, etc.         |
+|  04   | Transformation DataType |                int, float, and str                 |
+|  05   |  Conditional Statement  |                If elif else Syntax                 |
+|  06   |       Repetition        |                 For, when syntax.                  |
+|  07   |        Function         | Concepts, definitions, arguments/default arguments |
+|  08   |        Project 1        |                                                    |
+|  09   |        File I/O         |               open, write, open-mode               |
+|  10   |         tkinter         |                       (-ing)                       |
+|  11   |        File I/O         |                       (-ing)                       |
+|  12   |      PIL Libraries      |                  Simple PhotoShop                  |
+|  13   |    Objects & Classes    |           Class definition, Inheritance            |
+|  14   |        Project 2        |                                                    |
