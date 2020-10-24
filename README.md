@@ -1,31 +1,26 @@
-## Luxury_Programming_1st_edition
-생능 - 명품 C++ 프로그래밍
+# Luxury_Programming_1st_edition
 
-
-### <개요>
+<div align="right"><a href="https://hits.seeyoufarm.com"/><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/eona1301/Luxury_Programming_1st_edition"/></a></div>
 
 - Tool : Visual Studio 2017
 - Record : 2019.05.13 ~ing
-- 체계화된 문법으로 상대적으로 어려웠던 C언어의 상향된 언어로, 동일한 기능을 보다 쉽게 사용할 수 있으며 객체지향적 언어의 특징을 아주 잘 담고 있는 언어입니다. C언어와 비슷하여 C언어를 학습한 분은 더욱 쉽고 재미있게 할 수 있을껍니다. 가장 중요하며 객체지향 언어의 큰 특징은 캡슐화, 추상화, 상속성 입니다. 이를 활용하는 방법을 익숙하게 하여 더욱 다양한 개발을 진행하는 것을 추천드립니다.
 
 ---
 
-### <구성>
+## Procedure List
 
-각 한 챕터마다 Open Challenge 한 문제와 예제 문제, 연습 문제들로 구성되어있습니다. 순서는 Open Challenge > 예제 > 연습 순서대로 해야하지만, 가장 적절한 방법은 예제 > 연습 > Open Challenge 순서대로 하면 좋은 것 같습니다. 
-
----
-
-- 1장 C++ 시작: C++ 기초 이해, Visual Studio 사용
-- 2장 C++ 프로그래밍의 기본: C++ 프로그램 구성, 키 입력, 화면 출력
-- 3장 클래스와 객체: 클래스 만들기, 객체 생성, 바람직한 C++ 프로그램 작성 등 C++ 주요 특징 이해
-- 4장 객체 포인터와 객체 배열, 객체의 동적 생성: 객체 포인터, 객체의 동적 생성 및 소멸, 동적 배열 다루기, this, string 클래스 사례 활용
-- 5장 함수와 참조: 복사 생성자 값에 의한 호출의 문제점 이해, 참조와 참조에 의한 호출, 복사 생성자 작성
-- 6장 함수 중복과 static 멤버: 중복 함수 만들기, 중복으로 인한 모호성 이해, 디폴트 매개 변수를 가진 함수 만들기, static 멤버 활용
-- 7장 프렌드와 연산자 중복: 프렌드 개념 이해 및 활용, 다양한 연산자 중복과 프렌드가 필요한 연산자 만들기
-- 8장 상속: 상속 만들기와 파생 클래스의 객체 이해, 다중 상속, 가상 상속
-- 9장 가상 함수와 추상 클래스: 가상 함수와 오버라이딩, 동적 바인딩 이해, 추상 클래스를 이용하는 프로그래밍 연습
-- 10장 템플릿과 표준 템플릿 라이브러리(STL): 일반화의 개념 이해, 템플릿 함수와 클래스 만들기, 간단한 STL 라이브러리 활용, auto와 람다 기초 이해
-- 11장 C++ 입출력 시스템: 스트림 입출력에 대한 이해, 문자 입출력, 포맷 입출력, 사용자 삽입 연산자와 추출 연산자 만들기, 사용자 조작자 만들기
-- 12장 C++ 파일 입출력: 텍스트 파일과 바이너리 파일에 대한 이해, 파일 읽기 및 쓰기, 스트림 상태 이해, 임의 접근으로 파일 입출력
-- 13장 예외 처리와 C 언어와의: 링크 지정 실행 오류와 오류 처리 방법 이해, 예외 처리 코드 작성, C++에서 C 코드 링킹 이해
+| Order |            Title             |                   Content                   |
+| :---: | :--------------------------: | :-----------------------------------------: |
+|  01   |          Start C++           |       C++ Basics, Using Visual Studio       |
+|  02   |          Basic C++           |          Key Entry, Screen Output           |
+|  03   |       Classe & Object        |       creating desirable C++ programs       |
+|  04   |    Object Pointer & Array    |       Object pointer, dynamic objects       |
+|  05   |     Function & Reference     | Calling by reference, create copy generator |
+|  06   | Overloading & static members |         Create duplicate functions          |
+|  07   |       Friends Function       |    Understanding and Concept of friends     |
+|  08   |         Inheritance          |  Multiple inheritance, Virtual inheritance  |
+|  09   |  Virtual & Abstract Classes  |      Virtual functions and overriding       |
+|  10   |       Templates & STL        |  understanding auto and lambda foundations  |
+|  11   |       C++ I/O systems        |   Understanding stream I/O, I/O function    |
+|  12   | Inputs and Outputs C++ File  |    input/output files with random access    |
+|  13   |     Handling Exceptions      |     Writing Exception Processing Codes      |
