@@ -1,27 +1,36 @@
-## Computer_Engineering_Web_Site
-### 프로젝트명 : 컴퓨터공학부 학부사이트 개발
+# Computer_Engineering_Web_Site
 
-- 개발환경 : Adobe Dreamweaver CC 2018
-- 사용기술 : HTML5, CSS3, JavaScript
+## Computer Engineering Site Development
 
-- 개발 인원 : 1명
-- 프로젝트 기간 :  2019.06.09-10일 (2일)
+<br>
+<div align="right">
 
----
+[![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) <a href="https://hits.seeyoufarm.com"/><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/eona1301/INJE_Computer_Engineering_Web_Site"/></a>
 
-### <프로젝트 개발동기>
+</div>
 
-기존 aspx로 제작이 되었었던 학부 사이트는 오랜 기간 업데이트가 되지 않았으며, 그에 따른 추가/생략된 학부의 다양한 내용이 업데이트 되지 않았었다. 외관상의 모습으로 보았을 때, 사이트의 width, height 등의 디자인적 요소들의 사이즈가 고정되어 있어 화면의 크기를 조정하여도 한정된 크기로만 배치되어있었다. 기능적, 사용적으로는 제시되어진 게시판들 중에 실질적으로 사용하지 않는 게시판이 다수 있었으며 게시판의 분류가 불분명하였다. 이러한 내용에 불편함을 느끼고 있었으며 학습한 HTML5와 CSS3의 숙지여부를 확인하며 JavaScript의 내용을 추가적으로 덧붙여, 기본 aspx로 제작되어있던 학부사이트를 리뉴얼하고 싶어서 설계하게 되었다.
+- Usage: HTML5, CSS3, JavaScript
+- Development personnel: 1 person
+- Development environment: Adobe Dreamweaver CC 2018
+- Project period: 2019.06.09 - 2019.06.10 (2 days)
 
----
+<br>
 
-### <프로젝트 소개>
+## Motive
 
-HTML5와 CSS3에 대한 숙지 확인을 목표로 진행한 단기 개발로 HTML5과 CSS3 외의 추가적인 독학을 통해 JavaScript를 활용해 더욱 액티브한 웹 페이지를 개발하였다.
+The undergraduate site, which had been produced as an existing aspx, has not been updated for a long time, and various contents of the additional/omitted undergraduate departments were not updated. In terms of appearance, the size of design elements such as the width and height of the site were fixed, so even if the screen size was adjusted, they were arranged in a limited size. Functionally and in terms of use, there were many bulletin boards that were not actually used, and the classification of the bulletin board was unclear. I was feeling uncomfortable with these contents, and I wanted to renew the undergraduate site that was produced as basic aspx by checking whether he is familiar with the learned HTML5 and CSS3 and adding the contents of JavaScript.
 
-- 담당 업무 : 프로젝트 기획, 상세화면 설계, 디자인 시안, UI 개발, HTML5 및 CSS3, JS 작성
+<br>
 
-- 프로젝트 발표 자료
+## Introduce
+
+As a short-term development aimed at checking familiarity with HTML5 and CSS3, we developed more active web pages using JavaScript through additional self-study other than HTML5 and CSS3.
+
+- **My job** : Project planning and overall
+
+<br>
+
+## Project presentation screen
 
 ![INJE_CE (1)](https://user-images.githubusercontent.com/45550607/83281076-84d6c480-a212-11ea-99a1-67bfdb55c980.PNG)
 ![INJE_CE (2)](https://user-images.githubusercontent.com/45550607/83281083-8607f180-a212-11ea-8ee1-6a8d9c8450f8.PNG)
