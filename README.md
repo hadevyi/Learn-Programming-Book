@@ -18,10 +18,10 @@
 |  05   |  Conditional Statement  |                If elif else Syntax                 |
 |  06   |       Repetition        |                 For, when syntax.                  |
 |  07   |        Function         | Concepts, definitions, arguments/default arguments |
-|  08   |        Project 1        |                                                    |
+|  08   |        Project 1        |                   toy-game, etc.                   |
 |  09   |        File I/O         |               open, write, open-mode               |
-|  10   |         tkinter         |                       (-ing)                       |
-|  11   |        File I/O         |                       (-ing)                       |
+|  10   |         tkinter         |             Python GUI program create              |
+|  11   |        File I/O         |           binary, text file in/output              |
 |  12   |      PIL Libraries      |                  Simple PhotoShop                  |
 |  13   |    Objects & Classes    |           Class definition, Inheritance            |
 |  14   |        Project 2        |                spaceship ball game                 |
