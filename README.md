@@ -19,7 +19,7 @@
 |  06   |       Repetition        |                 For, when syntax.                  |
 |  07   |        Function         | Concepts, definitions, arguments/default arguments |
 |  08   |        Project 1        |                   toy-game, etc.                   |
-|  09   |        File I/O         |               open, write, open-mode               |
+|  09   |   List & Dictionary     |           concept, list sort, key-value            |
 |  10   |         tkinter         |             Python GUI program create              |
 |  11   |        File I/O         |           binary, text file in/output              |
 |  12   |      PIL Libraries      |                  Simple PhotoShop                  |
