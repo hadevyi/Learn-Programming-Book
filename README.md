@@ -18,7 +18,7 @@
 |  05   |  Conditional Statement  |                If elif else Syntax                 |
 |  06   |       Repetition        |                 For, when syntax.                  |
 |  07   |        Function         | Concepts, definitions, arguments/default arguments |
-|  08   |        Project 1        |                   toy-game, etc.                   |
+|  08   |        Project 1        |         spaceship ball game toy-game, etc.         |
 |  09   |   List & Dictionary     |           concept, list sort, key-value            |
 |  10   |         tkinter         |             Python GUI program create              |
 |  11   |        File I/O         |           binary, text file in/output              |
