@@ -9,21 +9,21 @@
 
 ## Procedure List
 
-| Order |               Title               | Content |
-| :---: | :-------------------------------: | :-----: |
-|  01   |          Getting started          |         |
-|  02   |       Variables&Data types        |         |
-|  03   |             Operators             |         |
-|  04   |           Control flow            |         |
-|  05   |         Class & Object 1          |         |
-|  06   |         Class & Object 2          |         |
-|  07   |         Array & ArrayList         |         |
-|  08   |    Inheritance & Polymorphism     |         |
-|  09   |          Abstract class           |         |
-|  10   |             Interface             |         |
-|  11   |            Basic Class            |         |
-|  12   |       Collection Framework        |         |
-|  13   | Internal Classes, Lambdas, Stream |         |
-|  14   |        Handling exceptions        |         |
-|  15   |             Java I/O              |         |
-|       |           Final Program           |         |
+| Order |               Title               |            Content            |
+| :---: | :-------------------------------: | :---------------------------: |
+|  01   |          Getting started          | Java Setting, Eclipse Setting |
+|  02   |       Variables&Data types        | What is Varialbes? Data-type  |
+|  03   |             Operators             | Basic Operator, Bit operator  |
+|  04   |           Control flow            |                               |
+|  05   |         Class & Object 1          |                               |
+|  06   |         Class & Object 2          |                               |
+|  07   |         Array & ArrayList         |                               |
+|  08   |    Inheritance & Polymorphism     |                               |
+|  09   |          Abstract class           |                               |
+|  10   |             Interface             |                               |
+|  11   |            Basic Class            |                               |
+|  12   |       Collection Framework        |                               |
+|  13   | Internal Classes, Lambdas, Stream |                               |
+|  14   |        Handling exceptions        |                               |
+|  15   |             Java I/O              |                               |
+|       |           Final Program           |                               |
