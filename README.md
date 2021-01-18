@@ -9,21 +9,21 @@
 
 ## Procedure List
 
-| Order |               Title               |            Content            |
-| :---: | :-------------------------------: | :---------------------------: |
-|  01   |          Getting started          | Java Setting, Eclipse Setting |
-|  02   |       Variables&Data types        | What is Varialbes? Data-type  |
-|  03   |             Operators             | Basic Operator, Bit operator  |
-|  04   |           Control flow            |                               |
-|  05   |         Class & Object 1          |                               |
-|  06   |         Class & Object 2          |                               |
-|  07   |         Array & ArrayList         |                               |
-|  08   |    Inheritance & Polymorphism     |                               |
-|  09   |          Abstract class           |                               |
-|  10   |             Interface             |                               |
-|  11   |            Basic Class            |                               |
-|  12   |       Collection Framework        |                               |
-|  13   | Internal Classes, Lambdas, Stream |                               |
-|  14   |        Handling exceptions        |                               |
-|  15   |             Java I/O              |                               |
-|       |           Final Program           |                               |
+| Order |               Title               |                 Content                 |
+| :---: | :-------------------------------: | :-------------------------------------: |
+|   A   |          Getting started          |      Java Setting, Eclipse Setting      |
+|   B   |       Variables&Data types        |      What is Varialbes? Data-type       |
+|   C   |             Operators             |      Basic Operator, Bit operator       |
+|   D   |           Control flow            |  if-else, swithc-case, for, while loop  |
+|   E   |         Class & Object 1          | init method, how to create Class object |
+|   F   |         Class & Object 2          |                                         |
+|   G   |         Array & ArrayList         |                                         |
+|   H   |    Inheritance & Polymorphism     |                                         |
+|   I   |          Abstract class           |                                         |
+|   J   |             Interface             |                                         |
+|   K   |            Basic Class            |                                         |
+|   L   |       Collection Framework        |                                         |
+|   M   | Internal Classes, Lambdas, Stream |                                         |
+|   N   |        Handling exceptions        |                                         |
+|   O   |             Java I/O              |                                         |
+|       |           Final Program           |                                         |
