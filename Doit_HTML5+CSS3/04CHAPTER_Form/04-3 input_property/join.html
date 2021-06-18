@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>04_3 - join</title>
+</head>
+
+<body>
+	<h1>회원 가입을 환영합니다.</h1>
+	<form>
+		<label>아이디:
+			<input type="text" id="user_id" size="10" minlength="4" maxlength="15">
+			<small style="color:red;">4~15자리 이내의 영문과 숫자</small>
+		</label><br>
+		<label>이메일
+			<input type="email" id="email">
+		</label><br>
+		<label>비밀번호:
+			<input type="password" id="user_pw">
+		</label><br>
+		<label>비밀번호 확인:
+			<input type="pw-again" id="pw_again">
+		</label><br>
+		<input type="submit" value="회원가입">
+	</form>
+</body>
+</html>

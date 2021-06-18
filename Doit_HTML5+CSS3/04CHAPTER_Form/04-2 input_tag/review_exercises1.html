@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>04_2 - 실습문제1</title>
+	<style>
+		th {
+			padding : 5px;
+			text-align:left;
+		}
+	</style>
+</head>
+
+<body>
+	<form> <!-- 목록으로 정리하기 -->
+		<fieldset>
+			<legend>프로젝트 정보</legend>
+			<ul>
+				<li><label><b>이름</b><input type="text" id="name"></label></li>
+				<li><label><b>중요도</b><input type="range" min="1" max="6" step="1" value="1" id="important"></label></li>
+				<li><label><b>예상 시간</b><input type="time" value="00:00"></label></li>
+				<li><label><b>시작 날짜</b><input type="date" id="start"></label></li>
+				<li><label><b>이메일</b><input type="email" id="email"></label></li>
+				<li><label><b>URL</b><input type="url" id="url"></label></li>
+				<li><label><b>검색</b><input type="search"></label></li>
+				<li><input type="submit" value="전송"></li>
+			</ul>
+		</fieldset>
+		<fieldset> <!-- 테이블로 정리하기 -->
+			<legend>프로젝트 정보</legend>
+			<table>
+				<tr>
+					<th>이름</th>
+					<td><input type="text" id="name"></td>
+				</tr>
+				<tr>
+					<th>중요도</th>
+					<td><input type="range" value="1" min="1" max="6" step="1" id="important"></td>
+				</tr>
+				<tr>
+					<th>예상 시간</th>
+					<td><input type="time" id="time"></td>
+				</tr>
+				<tr>
+					<th>시작 날짜</th>
+					<td><input type="date" id="date"></td>
+				</tr>
+				<tr>
+					<th>이메일</th>
+					<td><input type="email" id="email"></td>
+				</tr>
+				<tr>
+					<th>URL</th>
+					<td><input type="url" id="url"></td>
+				</tr>
+				<tr>
+					<th>검색</th>
+					<td><input type="search" id="search"></td>
+				</tr>
+				<tr>
+					<th><input type=submit value="전송"></th>
+					<td></td>
+				</tr>
+			</table>
+		</fieldset>
+	</form>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>06_1 - webfont1</title>
+	<style>
+		@font-face {
+			font-family:'trana';
+			src:local('trana'), url('trana.eot'), url('trana.woff') format('trana.woff'), url('trana.ttf') format('truetype');
+		}
+		.w-font{
+			font-family:'trana', sans-serif;
+		}
+		p{
+			font-size:30px;
+		}
+	</style>
+</head>
+
+<body>
+	<p>Using Default Fonts</p>
+	<p class="w-font">Using Trana Fonts</p>
+</body>
+</html>

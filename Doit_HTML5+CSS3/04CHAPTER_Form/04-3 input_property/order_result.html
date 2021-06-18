@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>04_3 - order_result</title>
+	<style>
+		.container{
+			width:600px;
+			margin: 0 auto;
+		}
+		ul{
+			list-style-type:none;
+		}
+		label.title{
+			font-weight: bold;
+			width:80px;
+			float:left;
+		}
+		div.centered{
+			text-align:center;
+		}
+		fieldset{
+			margin:15px 10px;
+		}
+		fieldset elgend{
+			font-weight:bold;
+			font-size:18px;
+			color:purple;
+		}
+		ul li{
+			margin-bottom:10px;
+		}
+	</style>
+</head>
+<body>
+	<h1>상품 주문서</h1>
+	<form>
+		<fieldset>
+			<legend>개인 정보</legend>
+			<ul>
+				<li>
+					<label class="title" for="name">이름</label>
+					<input type="text" id="name" placeholder="여백없이 입력">
+				</li>
+				<li>
+					<label class="title" for="phone">연락처</label>
+					<input type="tel" id="phone" placeholder="연락가능한 번호">
+				</li>
+			</ul>
+		</fieldset>
+		<fieldset>
+			<legend>배송지 정보</legend>
+			<ul>
+				<li>
+					<label class="title" for="address">주소</label>
+					<input type="text" id="address" size="40">
+				</li>
+				<li>
+					<label class="title" for="phone_num">전화번호</label>
+					<input type="tel" id="phone_num" size="20">
+				</li>
+				<li>
+					<label class="title" for="memo">메 모</label>
+					<textarea id="memo" cols="50" rows="4"></textarea>
+				</li>
+			</ul>
+		</fieldset>
+		<fieldset>
+			<legend>주문 정보</legend>
+			<ul>
+				<li>
+					<label><input type="checkbox">과타멜라안티구아 (100g)</label>
+					<label><input type="number" value="0" min="0" max="5">개</label>
+				</li>
+				<li>
+					<label><input type="checkbox">인도네아아만델링 (100g)</label>
+					<label><input type="number" value="0" min="0" max="5">개</label>
+				</li>
+				<li>
+					<label><input type="checkbox">탐라는도다(블렌딩) (100g)</label>
+					<label><input type="number" value="0" min="0" max="5">개</label>
+				</li>
+			</ul>
+		</fieldset>
+		<div class="centered">
+			<input type="submit" value="주문하기">
+			<input type="reset" value="다시 작성">
+		</div>
+	</form>
+</body>
+</html>
