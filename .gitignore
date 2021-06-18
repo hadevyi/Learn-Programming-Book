@@ -1,0 +1,12 @@
+# Visual Studio C++ #
+.vs/**
+
+*.sln
+*.vcxproj
+*.filters
+*.user
+
+# Directories #
+/build/
+/bin/
+target/
