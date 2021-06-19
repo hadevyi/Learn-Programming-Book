@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+/*base body class*/
+body {
+	margin:0;
+	padding: auto 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* div 관련 css class */
+.quickbar{
+	width: 100%;
+	padding: auto;
+	background-color:#090D2F;	
+}
+
+.titlebar{
+	width: 90%;
+	margin: 30px 5%;
+	vertical-align: middle;
+}
+
+.titlebar div{
+	display:inline-block;
+}
+
+iframe{
+	width: 100%;
+	height: 100vmax;
+	padding: 0px;
+	border: 0px
+}
+
+/* 목록 차트 관련 css class*/
+.nonestyle {
+	margin: auto;
+	list-style:none;
+	float:right;
+}
+
+.vertical {
+	display: inline-block;
+	text-align:center;
+	color:aliceblue;
+}
+
+/* 하이퍼링크 css class */
+
+a {
+	color:aliceblue;
+	text-decoration:none;
+}
