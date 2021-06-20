@@ -1,76 +1,42 @@
-<<<<<<< HEAD
-# Basic_C_Sharp
-
-## C# Basic Course
-
-<div align="right">
-<a href="https://hits.seeyoufarm.com"/><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/eona1301/Basic_C_Sharp"/></a>
-</div>
-
-- Tool : Visual Studio 2015
-- Class : 2016.03.02 ~ 2016.06.21
-- C# using Windows Web From, UI elements are well combined and can be easily approached visually.
-
-<br>
-
-## Configuration
-
-Consists of general understanding and basic examples that are frequently used. However, since there is only C# code (.cs) without design elements, if you carefully check the ID value of the widget in the code and place it in Visual Studio, you will get the same result. Because it can be developed through various widgets, it can be a lot of fun in development, but it can be difficult as a first language because of its strong object-oriented concept (OOP).
-=======
-# Basic_ASP.NET
-
-## ASP.NET basic course using C#
+## ASP.NET 웹 프로그래밍
 
 <div align="right">
 <a href="https://hits.seeyoufarm.com"/><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/eona1301/Basic_ASP.NET"/></a>
 </div>
 
-- Tool : Visual Studio 2015
-- Class : 2016.08.29 ~ 2016.12.19
-- With development using C# Window Web Form, you can develop a web site you want through basic use of Database and its use.
+- 학습환경 : Visual Studio 2015
+- 학습기간 : 2016.08.29 ~ 2016.12.19
+- C# Window Web Form의 문법을 그대로 사용하면서, 데이터베이스의 기본 사용을 추가적으로 학습하여 원하는 웹 사이트를 개발할 수 있습니다.
 
-## Configuration
+## 정리
 
-All Chapters are attached to the entire project.
+모든 챕터는 전체 프로젝트에 첨부되어 있습니다.
 
-For convenient understanding of ASP, it is important to learn in order according to the order of **contents**, and it is a concept that proceeds together using a database rather than a simple page creation, so a detailed understanding of this is also required.
->>>>>>> ASP-NET/master
+ASP의 편리한 이해를 위해서는 **내용**의 순서에 따라 순서대로 학습하는 것이 중요하며, 간단한 페이지 작성보다는 데이터베이스를 이용해 함께 진행하는 개념이기 때문에 데이터베이스에 대한 이해도 필요합니다.
 
 <br>
 
-## Procedure List
+## 학습 세부 리스트
 
-<<<<<<< HEAD
-| Chapter |       Main        |                       Detail                        |
-| :-----: | :---------------: | :-------------------------------------------------: |
-|   00    |  General Problem  |                                                     |
-|   02    |     Operators     |     arithmetic, logical, relational operations      |
-|   03    | Control Statement |           if, switch, for, while, foreach           |
-|   04    |   Variable Area   |           Global variable, local variable           |
-|   05    |   Random, Array   |               Array declaration/call                |
-|   06    |      String       |              format, split, substring               |
-|   07    |      Widgets      |     radioButton, ImageButton, checkBox, listBox     |
-|         |     DrawLine      | open/save dialog, draw, pictureBox, onclick Hanlder |
-|         |      MemoPad      |            open/save dialog, colorDialog            |
-=======
-| Chapter |         Main         | Detail                                         |
-| :-----: | :------------------: | ---------------------------------------------- |
-|   01    |     What is ASP      |                                                |
-|   02    | What is Master Page? |                                                |
-|   03    |   Configuring aspx   |                                                |
-|   04    |    First project     | First Handler, bgcolor, table, layer, calendar |
-|   05    |   Event Handler 1    | Button, CheckBox, RadioButton, ImageButton     |
-|   06    |   Event Handler 2    | ListBox Overlap, CheckBox, RadioButton go-over |
-|   07    |   Validator Error    | RequiredField, Radnge, Comare, etc.            |
-|   08    |   Database Setting   | How to use mySQL, mySQL CUDA                   |
-|   09    |   Data in Database   | View linkage, DataList, DataTable              |
-|   10    |    DB utilization    | Database write, list-Record Insert             |
+
+| 챕터  |       제목        | 내용                                       |
+| :---: | :---------------: | ------------------------------------------ |
+|  01   |      ASP란?       |                                            |
+|  02   |  Master Page란?   |                                            |
+|  03   |     aspx 설정     |                                            |
+|  04   | Project 시작하기  | Handler, bgcolor, table, layer, calendar   |
+|  05   |  Event Handler 1  | Button, CheckBox, RadioButton, ImageButton |
+|  06   |  Event Handler 2  | ListBox 중복, CheckBox, RadioButton        |
+|  07   |     에러 확인     | RequiredField, Radnge, Comare, etc.        |
+|  08   | Database Setting  | mySQL 설정 및 CUDA                         |
+|  09   |   Data 표출하기   | View linkage, DataList, DataTable          |
+|  10   | Database 활용하기 | Database 데이터 추가, list-Record 추가하기         |
 
 <br>
 
 ## How to install pubs DB
 
-: Needed from Chapter 08
+: Chapter 08부터 필요합니다.
 
 1. Run from command prompt window
 
@@ -93,4 +59,3 @@ For convenient understanding of ASP, it is important to learn in order according
 
    * @@@@ = version
    ```
->>>>>>> ASP-NET/master

@@ -1,26 +1,30 @@
-# Luxury_Programming_1st_edition
+## 명품 C++ 프로그래밍
 
 <div align="right"><a href="https://hits.seeyoufarm.com"/><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/eona1301/Luxury_Programming_1st_edition"/></a></div>
 
-- Tool : Visual Studio 2017
-- Record : 2019.05.13 ~ing
+- 학습환경 : Visual Studio 2017
+- 학습기간 : 2019.05.13 ~ ing
+
+<br>
 
 ---
 
-## Procedure List
+<br>
 
-| Order |            Title             |                   Content                   |
-| :---: | :--------------------------: | :-----------------------------------------: |
-|  01   |          Start C++           |       C++ Basics, Using Visual Studio       |
-|  02   |          Basic C++           |          Key Entry, Screen Output           |
-|  03   |       Classe & Object        |       creating desirable C++ programs       |
-|  04   |    Object Pointer & Array    |       Object pointer, dynamic objects       |
-|  05   |     Function & Reference     | Calling by reference, create copy generator |
-|  06   | Overloading & static members |         Create duplicate functions          |
-|  07   |       Friends Function       |    Understanding and Concept of friends     |
-|  08   |         Inheritance          |  Multiple inheritance, Virtual inheritance  |
-|  09   |  Virtual & Abstract Classes  |      Virtual functions and overriding       |
-|  10   |       Templates & STL        |  understanding auto and lambda foundations  |
-|  11   |       C++ I/O systems        |   Understanding stream I/O, I/O function    |
-|  12   | Inputs and Outputs C++ File  |    input/output files with random access    |
-|  13   |     Handling Exceptions      |     Writing Exception Processing Codes      |
+## 학습 세부 리스트
+
+| 순서  |          챕터           |                           본문                            |
+| :---: | :---------------------: | :-------------------------------------------------------: |
+|  01   |        C++ 시작         |             C++ 역사 및 특징, 표준 라이브러리             |
+|  02   |        C++ 기본         |              기본 요소/출력, namespace, std               |
+|  03   |     Classe & Object     |    객체에 대한 이해, 객체 생성/활용/생성/소멸, 접근자     |
+|  04   | Object Pointer & Array  | 동적 메모리 할당 및 반환, this 포인터, string 클래스 활용 |
+|  05   |  Function & 참조, 복사  | 함수 인자 전달, 객체 전달/리턴, 참조와 함수, 복사 생성자  |
+|  06   | 함수 중복 & static 멤버 |           함수 중복, 디폴트 매개 변수와 모호성            |
+|  07   |  프렌드와 연산자 중복   |        개념과 이항/단항 연산자 중복, 프렌드 연산자        |
+|  08   |          상속           |  상속의 개념, 객체 포인터, 생성자/소멸자, 다중/가상 상속  |
+|  09   |   가상함수&추상클래스   |       함수 중복, 가상함수와 오버라이딩, 추상 클래스       |
+|  10   |     Templates & STL     |   일반화와 템플릿, 제네릭 함수/클래스 만들기, STL 활용    |
+|  11   |    C++ 입출력 시스템    |    ostream/istream 함수, 포맷 입출력, 삽입/추출 연산자    |
+|  12   |     C++ 파일 입출력     |       텍스트/바이너리 파일 입출력, 스트림 상태 검사       |
+|  13   | 예외 처리, C언어와 링크 |  실행 오류와 오류 처리, 예외 클래스 만들기, C과 C++ 링킹  |
