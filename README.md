@@ -24,12 +24,12 @@
     <td><img src="https://blogfiles.pstatic.net/MjAyMTA2MjBfMTM5/MDAxNjI0MTk1NjMxNTQ0.6EhNrUKRv5rpmRiXbn6VVM0B_0h7c94Jb33s4NHFHWog.J5qzKYYMH7_TC7HaomSkuDmOQvCs64eIjH6Nty5RcnAg.JPEG.dang0113/%EA%B7%B8%EB%A6%BC8.jpg?type=w2" width="100px"></td>
   </tr>
   <tr>
-    <td align="center">C# 웹 프로그래밍</td>
-    <td align="center">ASP.NET 프로그래밍</td>
+    <td align="center">C# Web<br>프로그래밍</td>
+    <td align="center">ASP.NET<br>프로그래밍</td>
     <td align="center">C프로그래밍</td>
     <td align="center">명품 C++</td>
-    <td align="center">Doit HTML5+CSS3</td>
-    <td align="center">두근두근 파이썬</td>
+    <td align="center">Doit<br>HTML5+CSS3</td>
+    <td align="center">두근두근<br>파이썬</td>
   </tr>
   <tr>
     <td><img src="https://blogfiles.pstatic.net/MjAyMTA2MjBfMTM1/MDAxNjI0MTk1NjMwODc2.ocgyw0VX3YhiudmUFI8-T6sbZZkZG2eqJhlaAG1VRzAg.xuhzBAZ7QBWcCQaJvUW94L-MminprwD0caC8YdH1FCYg.JPEG.dang0113/%EA%B7%B8%EB%A6%BC6.jpg?type=w2" width="100px"></td>
@@ -40,9 +40,9 @@
     <td></td>
   </tr>
   <tr>
-    <td align="center">Doit Java 입문</td>
-    <td align="center">모던 웹 HTML5+CSS3</td>
-    <td align="center">Doit JS Jquery</td>
+    <td align="center">Doit<br>Java 입문</td>
+    <td align="center">모던 웹<br>HTML5+CSS3</td>
+    <td align="center">Doit<br>JS Jquery</td>
     <td align="center"></td>
     <td align="center"></td>
     <td align="center"></td>
