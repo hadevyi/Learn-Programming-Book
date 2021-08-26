@@ -35,7 +35,7 @@
     <td><img src="https://blogfiles.pstatic.net/MjAyMTA2MjBfMTM1/MDAxNjI0MTk1NjMwODc2.ocgyw0VX3YhiudmUFI8-T6sbZZkZG2eqJhlaAG1VRzAg.xuhzBAZ7QBWcCQaJvUW94L-MminprwD0caC8YdH1FCYg.JPEG.dang0113/%EA%B7%B8%EB%A6%BC6.jpg?type=w2" width="100px"></td>
     <td><img src="https://blogfiles.pstatic.net/MjAyMTA2MjBfMTA0/MDAxNjI0MTk1NjMxMjI3.pHS7FtdkoHrfMJJWaEAng3SZdlYHKvjBrsEi5JT51xgg.QING5SZF-uqQetOAAyq9Te49eHqaVCJ9xi5Ysb8_qD0g.JPEG.dang0113/%EA%B7%B8%EB%A6%BC7.jpg?type=w2" width="100px"></td>
     <td><img src="https://blogfiles.pstatic.net/MjAyMTA2MjBfMTk2/MDAxNjI0MTk1NjMwNTg0.4TApcdMpdQWYekup2lxX2riSmoiSu6TtDj3jYFuIfkog.jHgnli39ljNwAW_bO0IkMyYn9HNAn3YFuBgfaYMAe-8g.JPEG.dang0113/%EA%B7%B8%EB%A6%BC5.jpg?type=w2" width="100px"></td>
-    <td></td>
+    <td><img src="https://blogfiles.pstatic.net/MjAyMTA4MjZfMjMy/MDAxNjI5OTQyOTAyOTY5.4fvRQYvMKohuB2cnmtzVF9HxWs1HuubNkUAxlW5Xn3Ug.QfWCcZ7YvlwGp-7_aD2HsU10s8h3IogNz2zvT7UkBBcg.PNG.dang0113/%EC%BA%A1%EC%B2%98.PNG?type=w2" width="100px"></td>
     <td></td>
     <td></td>
   </tr>
@@ -43,7 +43,7 @@
     <td align="center">Doit<br>Java 입문</td>
     <td align="center">모던 웹<br>HTML5+CSS3</td>
     <td align="center">Doit<br>JS Jquery</td>
-    <td align="center"></td>
+    <td align="center">Node.js<br>교과서 2판</td>
     <td align="center"></td>
     <td align="center"></td>
   </tr>
@@ -60,6 +60,7 @@
 + Doit Java 입문 : `독학교재`, 기본 Java 문법 및 예제, 연습/심화 등
 + 모던 웹 HTML5 + CSS3 : `추천교재`, 웹 페이지를 직접 구현하면서 확인하는 HTML5 + CSS3 표준 코드
 + Doit JS + jQuery : `추천교재`, 자바스크립트, 제이쿼리의 기본과 함께 실전 예제까지 적용
++ Node.js 교과서 2판 : `독학교재`, 노드에 대한 기초 학습 및 응용 예제까지 
 
 <br>
 <br>
