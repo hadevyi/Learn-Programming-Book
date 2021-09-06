@@ -25,7 +25,7 @@
   </tr>
   <tr>
     <td align="center">C# Web<br>프로그래밍<br>160302-160621</td>
-    <td align="center">ASP.NET<br>프로그래밍</td>
+    <td align="center">ASP.NET<br>프로그래밍<br>160829-161219</td>
     <td align="center">C프로그래밍</td>
     <td align="center">명품 C++</td>
     <td align="center">Doit<br>HTML5+CSS3</td>
